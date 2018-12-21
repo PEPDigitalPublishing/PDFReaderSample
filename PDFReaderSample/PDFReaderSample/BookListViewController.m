@@ -80,7 +80,7 @@
     
     NSAttributedString *passStr = [[NSAttributedString alloc] initWithString:@"●" attributes:@{NSForegroundColorAttributeName: UIColor.greenColor}];
     NSAttributedString *notPassStr = [[NSAttributedString alloc] initWithString:@"○" attributes:@{NSForegroundColorAttributeName: UIColor.redColor}];
-
+    
     [mAttrStr replaceCharactersInRange:NSMakeRange(3, 1) withAttributedString:self.book.isPurchase ? passStr : notPassStr];
     [mAttrStr replaceCharactersInRange:NSMakeRange(9, 1) withAttributedString:self.book.isDownloaded ? passStr : notPassStr];
     
@@ -191,11 +191,11 @@
 
 @interface BookListViewController ()<UICollectionViewDataSource, UICollectionViewDelegate, UIViewControllerPreviewingDelegate, PRViewControllerDelegate>
 
-@property (nonatomic, strong) UIActivityIndicatorView *indicatorView;
-
 @property (weak, nonatomic) IBOutlet UICollectionView *bookCollectionView;
 
 @property (nonatomic, weak) UICollectionViewFlowLayout *flowLayout;
+
+@property (nonatomic, strong) UIActivityIndicatorView *indicatorView;
 
 @property (nonatomic, strong) NSArray<PRBookModel *> *booklist;
 
@@ -217,6 +217,19 @@
     [super viewDidLoad];
     
     [self getBooklist];
+    [self resizeCollectionItemLayout];
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    
+    [self resizeCollectionItemLayout];
+}
+
+// MARK: - Override
+
+- (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection {
+    
     [self resizeCollectionItemLayout];
 }
 
@@ -341,10 +354,13 @@
         return;
     }
     
+    
+    UICollectionViewCell *cell = [collectionView cellForItemAtIndexPath:indexPath];
+    
     if (self.editing) { // 处于编辑模式
         
         if (book.isDownloaded) {
-            [self showAlertWithTitle:@"确定要删除该教材吗？" Message:book.fullName sureButtonTitle:@"确定" cancelButtonTitle:@"取消" sureHandle:^{
+            [self showAlertWithTitle:@"确定要删除该教材吗？" message:book.fullName sourceView:cell sureButtonTitle:@"删除" cancelButtonTitle:@"取消" sureHandle:^{
                 
                 [[PEPFileManager shareManager] deleteDownlodedBookWithBookID:book.book_id];        // 删除已下载教材
                 [collectionView reloadItemsAtIndexPaths:@[indexPath]];
@@ -360,7 +376,7 @@
         return;
     }
     
-    [self showOpenBookOptionAlertWithBookModel:book];
+    [self showOpenBookOptionAlertWithBookModel:book sourceView:cell];
     
 }
 
@@ -460,23 +476,36 @@
 // MARK: - UI
 
 - (void)resizeCollectionItemLayout {
-    const NSInteger screenWidth = (NSInteger)[UIScreen mainScreen].bounds.size.width;
+    const NSInteger width = (NSInteger)self.view.bounds.size.width;
     
     if (![self.bookCollectionView.collectionViewLayout isKindOfClass:UICollectionViewFlowLayout.class]) { return; }
     
     UICollectionViewFlowLayout *flowLayout = (UICollectionViewFlowLayout *)self.bookCollectionView.collectionViewLayout;
-    NSInteger itemWidth = (NSInteger)flowLayout.itemSize.width;
-    
-    NSInteger remainder = screenWidth % itemWidth;
-    NSInteger count = screenWidth / itemWidth;
-    if (remainder < 30) {
-        count--;
-        remainder += itemWidth;
+    if (self.traitCollection.horizontalSizeClass == UIUserInterfaceSizeClassCompact ||
+        self.traitCollection.verticalSizeClass == UIUserInterfaceSizeClassCompact) {
+        flowLayout.itemSize = CGSizeMake(120, 180);
+    } else {
+        flowLayout.itemSize = CGSizeMake(200, 300);
     }
     
-    CGFloat margin = (CGFloat)remainder / (count+1);
+    NSInteger itemWidth = (NSInteger)flowLayout.itemSize.width;
     
-    self.bookCollectionView.contentInset = UIEdgeInsetsMake(20, margin, 20, margin);
+    NSInteger padding = width % (NSInteger)(itemWidth*6/5);
+    NSInteger count = width / (itemWidth*6/5.0);
+    
+    if (padding < itemWidth/5.0) {
+        count--;
+        padding = (width - itemWidth*count) / (count+1);
+    } else if (padding > itemWidth/5.0) {
+        
+        padding = (width - itemWidth*count) / (count+1);
+    }
+    
+    flowLayout.minimumInteritemSpacing = padding-1;
+    self.bookCollectionView.contentInset = UIEdgeInsetsMake(20, padding, 20, padding);
+    
+    self.flowLayout = flowLayout;
+    [self.bookCollectionView setNeedsLayout];
 }
 
 - (UIActivityIndicatorView *)indicatorView {
@@ -536,7 +565,7 @@
     self.readerVC = readerVC;
 }
 
-- (void)showOpenBookOptionAlertWithBookModel:(PRBookModel *)book {
+- (void)showOpenBookOptionAlertWithBookModel:(PRBookModel *)book sourceView:(UIView *)sourceView {
     
     BOOL hasUpdate = [PRBookDownloader checkBookUpdateWithBookID:book.book_id error:nil];
     
@@ -544,7 +573,7 @@
         
         if (hasUpdate) {
             
-            [self showAlertWithMessage:@"选择需要进行的操作" firstButtonTitle:@"更新教材" secondButtonTitle:@"继续阅读" thirdButtonTitle:@"取消" firstHandle:^{
+            [self showAlertWithMessage:@"选择需要进行的操作" sourceView:sourceView firstButtonTitle:@"更新教材" secondButtonTitle:@"继续阅读" thirdButtonTitle:@"取消" firstHandle:^{
                 [self downloadBookWithBookModel:book];
             } secondHandle:^{
                 [self openBookWithModel:book];
@@ -560,7 +589,7 @@
         
     } else {
         
-        [self showAlertWithMessage:@"选择需要进行的操作" firstButtonTitle:@"下载教材" secondButtonTitle:@"在线阅读" thirdButtonTitle:@"取消" firstHandle:^{
+        [self showAlertWithMessage:@"选择需要进行的操作" sourceView:sourceView firstButtonTitle:@"下载教材" secondButtonTitle:@"在线阅读" thirdButtonTitle:@"取消" firstHandle:^{
             [self downloadBookWithBookModel:book];
         } secondHandle:^{
             [self openBookWithModel:book];
@@ -574,15 +603,18 @@
 
 
 - (void)showAlertWithTitle:(NSString *)title
-                   Message:(NSString *)message
+                   message:(NSString *)message
+                sourceView:(UIView *)sourceView
              sureButtonTitle:(NSString *)sureTitle
            cancelButtonTitle:(NSString *)cancelTitle
                   sureHandle:(void (^ __nullable)(void))sureHandle
                 cancelHandle:(void (^ __nullable)(void))cancelHandle {
     
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleActionSheet];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:sourceView ? UIAlertControllerStyleActionSheet : UIAlertControllerStyleAlert];
+    alert.popoverPresentationController.sourceView = sourceView;
+    alert.popoverPresentationController.sourceRect = sourceView.bounds;
     
-    UIAlertAction *confirmAction = [UIAlertAction actionWithTitle:sureTitle style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    UIAlertAction *confirmAction = [UIAlertAction actionWithTitle:sureTitle style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
         if (sureHandle) { sureHandle(); }
     }];
     
@@ -597,6 +629,7 @@
 }
 
 - (void)showAlertWithMessage:(NSString *)message
+                  sourceView:(UIView *)sourceView
              firstButtonTitle:(NSString *)firstTitle
            secondButtonTitle:(NSString *)secondTitle
                  thirdButtonTitle:(NSString *)thirdTitle
@@ -604,7 +637,9 @@
                 secondHandle:(void (^ __nullable)(void))secondHandle
                 thirdHandle:(void (^ __nullable)(void))thirdHandle {
     
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:message message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:message message:nil preferredStyle:sourceView ? UIAlertControllerStyleActionSheet : UIAlertControllerStyleAlert];
+    alert.popoverPresentationController.sourceView = sourceView;
+    alert.popoverPresentationController.sourceRect = sourceView.bounds;
     
     UIAlertAction *firstAction = [UIAlertAction actionWithTitle:firstTitle style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         if (firstHandle) { firstHandle(); }
