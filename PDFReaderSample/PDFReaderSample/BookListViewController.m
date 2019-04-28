@@ -54,7 +54,7 @@
     
     self.statusLabel.attributedText = [self getStatusAttrString];
     self.coverView.hidden = !book.isDownloading;
-
+    
 }
 
 - (void)setDownloadProgress:(CGFloat)downloadProgress {
@@ -93,10 +93,10 @@
 - (void)configCell {
     
     self.backgroundColor = [UIColor lightGrayColor];
-    self.layer.shadowOffset = CGSizeMake(1, 1);
-    self.layer.shadowOpacity = 0.4;
-    self.layer.cornerRadius = 5;
-    self.layer.masksToBounds = false;
+//    self.layer.shadowOffset = CGSizeMake(1, 1);
+//    self.layer.shadowOpacity = 0.4;
+//    self.layer.cornerRadius = 5;
+//    self.layer.masksToBounds = false;
 }
 
 - (UIImageView *)imageView {
@@ -151,7 +151,7 @@
         
         [statusLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.right.bottom.equalTo(statusLabel.superview);
-            make.height.equalTo(@20);
+            make.top.equalTo(self.titleLabel.mas_bottom);
         }];
         
         _statusLabel = statusLabel;
@@ -258,7 +258,7 @@
 - (IBAction)editBarButtonItem:(UIBarButtonItem *)sender {
     self.editing = !self.editing;
     
-    sender.tintColor = self.editing ? UIColor.redColor : UIColor.darkGrayColor;
+    sender.tintColor = self.editing ? UIColor.redColor : UIColor.whiteColor;
     
     NSLog(self.editing ? @"进入编辑模式，可以点击删除已下载教材" : @"退出编辑模式");
 }
@@ -284,7 +284,7 @@
         
     } failBlock:^(NSError *error) {
         [self.indicatorView stopAnimating];
-
+        
         NSLog(@"%@", error);
     }];
 }
@@ -297,15 +297,9 @@
     [self.navigationController pushViewController:deviceListVC animated:true];
 }
 
-
-- (void)openBookWithModel:(PRBookModel *)bookModel {
-    PRStandardViewController *vc = [[PRStandardViewController alloc] initWithBookID:bookModel.book_id pageIndex:0 purchase:true];
-    [self.navigationController pushViewController:vc animated:YES];
-}
-
 - (void)cellForDownloadProgressAtIndexPath:(NSIndexPath *)indexPath downloadProgress:(NSProgress *)progress {
     BookCollectionCell *cell = (BookCollectionCell *)[self.bookCollectionView cellForItemAtIndexPath:indexPath];
-
+    
     cell.downloadProgress = (CGFloat)progress.completedUnitCount / progress.totalUnitCount;
 }
 
@@ -393,7 +387,32 @@
     [self.readerVC cleanupAndCloseForReaderWithAnimated:true];  // 关闭阅读器（非必须）
     
     // TODO: - 跳转到购买教材页面
+    
+}
 
+/**
+ 体验模式结束时，将首先回调该方法。
+ 若对接方实现了该方法，则需要自己定制体验模式结束、引导用户购买的弹窗，「- (void)needPayWithBookModel:(PRBookModel *)bookModel」方法将不再回调；
+ 若对接方未实现该方法，则使用SDK内部默认的提示用户购买弹窗，「- (void)needPayWithBookModel:(PRBookModel *)bookModel」将会被回调。
+ */
+- (void)experienceDidEnded:(PRViewController *)vc bookModel:(PRBookModel *)bookModel {
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"体验模式结束" message:@"对接方可在此方法内自己定制引导用户购买的弹窗" preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *confrimAction = [UIAlertAction actionWithTitle:@"好的" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    [alert addAction:confrimAction];
+    [alert addAction:cancelAction];
+    
+    [vc presentViewController:alert animated:true completion:^{
+        
+    }];
+    
 }
 
 /**
@@ -576,14 +595,14 @@
             [self showAlertWithMessage:@"选择需要进行的操作" sourceView:sourceView firstButtonTitle:@"更新教材" secondButtonTitle:@"继续阅读" thirdButtonTitle:@"取消" firstHandle:^{
                 [self downloadBookWithBookModel:book];
             } secondHandle:^{
-                [self openBookWithModel:book];
+                [self openBookWithBookModel:book];
             } thirdHandle:^{
                 
             }];
             
         } else {
             
-            [self openBookWithModel:book];
+            [self openBookWithBookModel:book];
             
         }
         
@@ -592,7 +611,7 @@
         [self showAlertWithMessage:@"选择需要进行的操作" sourceView:sourceView firstButtonTitle:@"下载教材" secondButtonTitle:@"在线阅读" thirdButtonTitle:@"取消" firstHandle:^{
             [self downloadBookWithBookModel:book];
         } secondHandle:^{
-            [self openBookWithModel:book];
+            [self openBookWithBookModel:book];
         } thirdHandle:^{
             
         }];
@@ -605,10 +624,10 @@
 - (void)showAlertWithTitle:(NSString *)title
                    message:(NSString *)message
                 sourceView:(UIView *)sourceView
-             sureButtonTitle:(NSString *)sureTitle
-           cancelButtonTitle:(NSString *)cancelTitle
-                  sureHandle:(void (^ __nullable)(void))sureHandle
-                cancelHandle:(void (^ __nullable)(void))cancelHandle {
+           sureButtonTitle:(NSString *)sureTitle
+         cancelButtonTitle:(NSString *)cancelTitle
+                sureHandle:(void (^ __nullable)(void))sureHandle
+              cancelHandle:(void (^ __nullable)(void))cancelHandle {
     
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:sourceView ? UIAlertControllerStyleActionSheet : UIAlertControllerStyleAlert];
     alert.popoverPresentationController.sourceView = sourceView;
@@ -630,12 +649,12 @@
 
 - (void)showAlertWithMessage:(NSString *)message
                   sourceView:(UIView *)sourceView
-             firstButtonTitle:(NSString *)firstTitle
+            firstButtonTitle:(NSString *)firstTitle
            secondButtonTitle:(NSString *)secondTitle
-                 thirdButtonTitle:(NSString *)thirdTitle
-                  firstHandle:(void (^ __nullable)(void))firstHandle
+            thirdButtonTitle:(NSString *)thirdTitle
+                 firstHandle:(void (^ __nullable)(void))firstHandle
                 secondHandle:(void (^ __nullable)(void))secondHandle
-                thirdHandle:(void (^ __nullable)(void))thirdHandle {
+                 thirdHandle:(void (^ __nullable)(void))thirdHandle {
     
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:message message:nil preferredStyle:sourceView ? UIAlertControllerStyleActionSheet : UIAlertControllerStyleAlert];
     alert.popoverPresentationController.sourceView = sourceView;
@@ -668,7 +687,7 @@
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleDefault;
+    return UIStatusBarStyleLightContent;
 }
 
 @end
