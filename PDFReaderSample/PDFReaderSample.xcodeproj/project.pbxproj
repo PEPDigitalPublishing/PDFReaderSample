@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331A2C7B2533ED790050B955 /* ThirdSpeechEvaluatorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 331A2C792533ED790050B955 /* ThirdSpeechEvaluatorTool.m */; };
 		AA8453E3C2BAD67C51ED1CE6 /* libPods-PDFReaderSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63507B0C56196581863E172A /* libPods-PDFReaderSample.a */; };
 		E9082928218007C2002D632D /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9082927218007C2002D632D /* TabBarController.m */; };
 		E908292B21800826002D632D /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E908292A21800826002D632D /* NavigationController.m */; };
@@ -52,6 +53,8 @@
 /* Begin PBXFileReference section */
 		1171703158D005EACE2F578C /* Pods-PDFReaderSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-PDFReaderSample/Pods-PDFReaderSample.debug.xcconfig"; sourceTree = "<group>"; };
 		28B984B76F23AB9E2033F2F7 /* Pods-PDFReaderSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderSample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-PDFReaderSample/Pods-PDFReaderSample.release.xcconfig"; sourceTree = "<group>"; };
+		331A2C792533ED790050B955 /* ThirdSpeechEvaluatorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdSpeechEvaluatorTool.m; sourceTree = "<group>"; };
+		331A2C7A2533ED790050B955 /* ThirdSpeechEvaluatorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdSpeechEvaluatorTool.h; sourceTree = "<group>"; };
 		63507B0C56196581863E172A /* libPods-PDFReaderSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFReaderSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9082926218007C2002D632D /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		E9082927218007C2002D632D /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 				E9569B75204CE44F00A12635 /* AppDelegate.m */,
 				E9082926218007C2002D632D /* TabBarController.h */,
 				E9082927218007C2002D632D /* TabBarController.m */,
+				331A2C7A2533ED790050B955 /* ThirdSpeechEvaluatorTool.h */,
+				331A2C792533ED790050B955 /* ThirdSpeechEvaluatorTool.m */,
 				E908292921800826002D632D /* NavigationController.h */,
 				E908292A21800826002D632D /* NavigationController.m */,
 				E9569B77204CE44F00A12635 /* ViewController.h */,
@@ -306,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9569B79204CE44F00A12635 /* ViewController.m in Sources */,
+				331A2C7B2533ED790050B955 /* ThirdSpeechEvaluatorTool.m in Sources */,
 				E979C0D420B2AB46005A8F6F /* BookListViewController.m in Sources */,
 				E9082928218007C2002D632D /* TabBarController.m in Sources */,
 				E910C2F62181547B009CC19A /* Device.m in Sources */,
@@ -480,6 +486,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 2.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -512,6 +519,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MARKETING_VERSION = 2.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

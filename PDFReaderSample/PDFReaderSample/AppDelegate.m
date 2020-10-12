@@ -32,6 +32,11 @@
     [PRSDKManager setAppKey:kAppKey_debug]; // 测试key
     [PRSDKManager setLogSwitch:true]; // 日志打印开
     [PRSDKManager setEvaluateEngineType:PREvaluateEngineTypeYiQi];    // 配置评测引擎类型
+    
+    // 使用其他测评引擎用到
+//    [PRSDKManager setEvaluateEngineType:PREvaluateEngineTypeOther];
+//    [ThirdSpeechEvaluatorTool shareInstance];// 初始化测评引擎
+    
 #else
     [PRSDKManager configServerMode:true];  // 正式环境: 正测环境目前仅以AppKey来区分，此处均传true
     [PRSDKManager setAppKey:kAppKey_release]; // 正式key
