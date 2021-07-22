@@ -4,15 +4,14 @@ workspace 'PEPReaderDemo.xcworkspace'
 
 def common_pods
 
-#    pod 'SSZipArchive'
-#
-#    pod 'PEPBigData', :git => 'https://github.com/PEPDigitalPublishing/PEPBigData.git'
-#
-#    pod 'PEPNetworking', :git => 'https://github.com/PEPDigitalPublishing/PEPNetworking.git'
+    pod 'SSZipArchive'
+
+    pod 'PEPBigData', :git => 'https://github.com/PEPDigitalPublishing/PEPBigData.git'
+    pod 'PEPNetworking', :git => 'https://github.com/PEPDigitalPublishing/PEPNetworking.git'
 
     # 非一起作业使用这两行
-#    pod 'PEPiFlyMSC', :git => 'https://github.com/PEPDigitalPublishing/PEPiFlyMSC.git'
-#    pod 'PEPReaderSDK', :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK.git'
+    pod 'PEPiFlyMSC', :git => 'https://github.com/PEPDigitalPublishing/PEPiFlyMSC.git'
+    pod 'PEPReaderSDK', :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK.git'
 
     # 一起作业使用这两行
 #    pod 'PEPReaderSDK_YiQi', :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK_YiQi.git'
@@ -29,7 +28,7 @@ target 'PDFReaderSample' do
     common_pods
     
     # 可选依赖
-#    pod 'RKAPPMonitorView'
+    pod 'RKAPPMonitorView'
 
 end
 

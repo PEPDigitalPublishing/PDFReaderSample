@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22DB3B8926A96B760040DD00 /* FoxitRDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DB3B8826A96B760040DD00 /* FoxitRDK.framework */; };
+		22DB3B8A26A96B760040DD00 /* FoxitRDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22DB3B8826A96B760040DD00 /* FoxitRDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22DB3B8C26A96D3D0040DD00 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DB3B8B26A96D350040DD00 /* libc++.tbd */; };
+		22DB3B8E26A96DD80040DD00 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DB3B8D26A96DC80040DD00 /* libz.tbd */; };
 		331A2C7B2533ED790050B955 /* ThirdSpeechEvaluatorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 331A2C792533ED790050B955 /* ThirdSpeechEvaluatorTool.m */; };
 		AA8453E3C2BAD67C51ED1CE6 /* libPods-PDFReaderSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63507B0C56196581863E172A /* libPods-PDFReaderSample.a */; };
 		E9082928218007C2002D632D /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9082927218007C2002D632D /* TabBarController.m */; };
@@ -32,8 +36,6 @@
 		E9569B7E204CE44F00A12635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9569B7D204CE44F00A12635 /* Assets.xcassets */; };
 		E9569B81204CE44F00A12635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9569B7F204CE44F00A12635 /* LaunchScreen.storyboard */; };
 		E9569B84204CE44F00A12635 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9569B83204CE44F00A12635 /* main.m */; };
-		E95825DC21BF8C87006C51EE /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E95825DB21BF8C87006C51EE /* libstdc++.dylib */; };
-		E95825DD21BF9DC5006C51EE /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E95825D321BF855B006C51EE /* libresolv.9.tbd */; };
 		E979C0D420B2AB46005A8F6F /* BookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E979C0D320B2AB46005A8F6F /* BookListViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				22DB3B8A26A96B760040DD00 /* FoxitRDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +55,9 @@
 
 /* Begin PBXFileReference section */
 		1171703158D005EACE2F578C /* Pods-PDFReaderSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-PDFReaderSample/Pods-PDFReaderSample.debug.xcconfig"; sourceTree = "<group>"; };
+		22DB3B8826A96B760040DD00 /* FoxitRDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoxitRDK.framework; path = ../FoxitRDK.framework; sourceTree = "<group>"; };
+		22DB3B8B26A96D350040DD00 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		22DB3B8D26A96DC80040DD00 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		28B984B76F23AB9E2033F2F7 /* Pods-PDFReaderSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderSample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-PDFReaderSample/Pods-PDFReaderSample.release.xcconfig"; sourceTree = "<group>"; };
 		331A2C792533ED790050B955 /* ThirdSpeechEvaluatorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdSpeechEvaluatorTool.m; sourceTree = "<group>"; };
 		331A2C7A2533ED790050B955 /* ThirdSpeechEvaluatorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdSpeechEvaluatorTool.h; sourceTree = "<group>"; };
@@ -91,10 +97,7 @@
 		E9569B80204CE44F00A12635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9569B82204CE44F00A12635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9569B83204CE44F00A12635 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E95825D321BF855B006C51EE /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
 		E95825D521BF85A3006C51EE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		E95825D921BF8C23006C51EE /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
-		E95825DB21BF8C87006C51EE /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		E979C0D220B2AB46005A8F6F /* BookListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookListViewController.h; sourceTree = "<group>"; };
 		E979C0D320B2AB46005A8F6F /* BookListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,12 +107,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E95825DD21BF9DC5006C51EE /* libresolv.9.tbd in Frameworks */,
-				E95825DC21BF8C87006C51EE /* libstdc++.dylib in Frameworks */,
+				22DB3B8926A96B760040DD00 /* FoxitRDK.framework in Frameworks */,
 				E910C2F82182F09F009CC19A /* UIKit.framework in Frameworks */,
 				E940F0272060EF9100F54205 /* MobileCoreServices.framework in Frameworks */,
 				E940F0252060EF8C00F54205 /* Security.framework in Frameworks */,
+				22DB3B8E26A96DD80040DD00 /* libz.tbd in Frameworks */,
 				E940F0232060EF8300F54205 /* CoreLocation.framework in Frameworks */,
+				22DB3B8C26A96D3D0040DD00 /* libc++.tbd in Frameworks */,
 				E940F0212060EF7700F54205 /* CoreTelephony.framework in Frameworks */,
 				E940F01F2060EF7200F54205 /* AudioToolbox.framework in Frameworks */,
 				E940F01D2060EF6900F54205 /* AddressBook.framework in Frameworks */,
@@ -193,10 +197,10 @@
 		E9569B9F204CE4CF00A12635 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E95825DB21BF8C87006C51EE /* libstdc++.dylib */,
-				E95825D921BF8C23006C51EE /* libstdc++.6.0.9.tbd */,
+				22DB3B8D26A96DC80040DD00 /* libz.tbd */,
+				22DB3B8B26A96D350040DD00 /* libc++.tbd */,
+				22DB3B8826A96B760040DD00 /* FoxitRDK.framework */,
 				E95825D521BF85A3006C51EE /* AVFoundation.framework */,
-				E95825D321BF855B006C51EE /* libresolv.9.tbd */,
 				E910C2F72182F09F009CC19A /* UIKit.framework */,
 				E940F0262060EF9100F54205 /* MobileCoreServices.framework */,
 				E940F0242060EF8C00F54205 /* Security.framework */,
@@ -225,6 +229,7 @@
 				E9569B6E204CE44F00A12635 /* Frameworks */,
 				E9569B6F204CE44F00A12635 /* Resources */,
 				E940F00B2060AA5F00F54205 /* Embed Frameworks */,
+				B781B7F1029724713CB7F32E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,6 +306,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B781B7F1029724713CB7F32E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDFReaderSample/Pods-PDFReaderSample-resources.sh",
+				"${PODS_ROOT}/PEPReaderSDK/PDFReaderSDKDiandu.xcassets",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDFReaderSample/Pods-PDFReaderSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -494,7 +519,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pep.PDFReaderSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64e armv7s arm64 armv7";
+				VALIDATE_WORKSPACE = YES;
+				VALID_ARCHS = "arm64e armv7s arm64 armv7 x86_64";
 			};
 			name = Debug;
 		};
@@ -527,7 +553,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pep.PDFReaderSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64e armv7s arm64 armv7";
+				VALIDATE_WORKSPACE = YES;
+				VALID_ARCHS = "arm64e armv7s arm64 armv7 x86_64";
 			};
 			name = Release;
 		};
