@@ -20,6 +20,20 @@
     [self networkStatusMonitor];    // 监控网络变化
     [self initRJReadSDK];
     
+    
+    if (@available(iOS 13.0, *)) {
+        UINavigationBarAppearance *appearance = [[UINavigationBarAppearance alloc] init];
+        [appearance configureWithOpaqueBackground];
+        [appearance setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.blackColor,
+        NSFontAttributeName:[UIFont systemFontOfSize:20]}];
+        appearance.backgroundColor = UIColor.magentaColor;
+        appearance.shadowColor = UIColor.clearColor;
+
+        [UINavigationBar appearance].scrollEdgeAppearance = appearance;
+
+        [UINavigationBar appearance].standardAppearance = appearance;
+        [UINavigationBar appearance].tintColor = UIColor.blackColor;
+    }
     return YES;
 }
 

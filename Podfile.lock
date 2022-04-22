@@ -15,13 +15,15 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - Aspects (1.4.1)
+  - iosMath (0.9.4)
   - Masonry (1.1.0)
-  - PEPBigData (0.5.1):
+  - PEPBigData (0.5.2):
     - Aspects
   - PEPiFlyMSC (1.180)
-  - PEPNetworking (0.5.0):
+  - PEPNetworking (0.5.1):
     - AFNetworking (~> 4.0.0)
-  - PEPReaderSDK (2.7.0):
+  - PEPReaderSDK (2.7.2):
+    - iosMath
     - Masonry
     - PEPBigData (>= 0.4.4)
     - PEPNetworking (>= 0.4.1)
@@ -29,10 +31,11 @@ PODS:
     - YYModel
   - RKAPPMonitorView (0.1.2)
   - SAMKeychain (1.5.3)
-  - SSZipArchive (2.4.2)
+  - SSZipArchive (2.4.3)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - iosMath
   - PEPBigData (from `https://github.com/PEPDigitalPublishing/PEPBigData.git`)
   - PEPiFlyMSC (from `https://github.com/PEPDigitalPublishing/PEPiFlyMSC.git`)
   - PEPNetworking (from `https://github.com/PEPDigitalPublishing/PEPNetworking.git`)
@@ -44,6 +47,7 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - Aspects
+    - iosMath
     - Masonry
     - RKAPPMonitorView
     - SAMKeychain
@@ -62,31 +66,32 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   PEPBigData:
-    :commit: 1fbd7686f9a30149e8edba2e5da8aaf26e9db76d
+    :commit: 3ddf38a5c062bdf6121197878ee85c738c5e741e
     :git: https://github.com/PEPDigitalPublishing/PEPBigData.git
   PEPiFlyMSC:
     :commit: 07848f421cfc13601e0837cd9b93ee26a1cf3abb
     :git: https://github.com/PEPDigitalPublishing/PEPiFlyMSC.git
   PEPNetworking:
-    :commit: 19e87ed96ce48a6ddd262450d8ecc54438d0a0af
+    :commit: a861b4df693ed92ff452303bd370e04fceb93d96
     :git: https://github.com/PEPDigitalPublishing/PEPNetworking.git
   PEPReaderSDK:
-    :commit: 7b4f43086f9f430954ce43b62c396e6e3748efa4
+    :commit: 2fe821b758db2f9271a3d0cea85f774d468d393c
     :git: https://github.com/PEPDigitalPublishing/PEPReaderSDK.git
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  PEPBigData: b531b36e57263d7ce9a892bddf322e4b4ca3ca51
+  PEPBigData: bdbab146206006a566aaf660cf0910578cce4da7
   PEPiFlyMSC: 257589a848c0ebdcc26457ec7758de1c4bb89137
-  PEPNetworking: b3116e24a695bb4fa0a84c77cd94e9de7710816b
-  PEPReaderSDK: 88d6d63309d127a8a7b433b06828ce6d786420d1
+  PEPNetworking: fa93e5223f4c0174882bccb4b827a87a3985a1ca
+  PEPReaderSDK: f2405677121f574d159e196de46e078284176135
   RKAPPMonitorView: 4c770188e8938cefea76994e134f3be2055cfc16
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 98fd62c3c6a31d7fa6d2590d11a541e90ab3ccb6
+PODFILE CHECKSUM: c27eafd6b204d0de1965028e4e3a41b524b75c4b
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

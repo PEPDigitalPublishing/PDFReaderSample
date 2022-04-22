@@ -99,10 +99,12 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/PEPReaderSDK/PDFReaderSDKDiandu.xcassets"
   install_resource "${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/iosMath/mathFonts.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/PEPReaderSDK/PDFReaderSDKDiandu.xcassets"
   install_resource "${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/iosMath/mathFonts.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
