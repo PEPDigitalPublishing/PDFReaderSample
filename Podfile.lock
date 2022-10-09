@@ -15,14 +15,19 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - Aspects (1.4.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - iosMath (0.9.4)
   - Masonry (1.1.0)
-  - PEPBigData (0.5.2):
+  - MZTimerLabel (0.5.4)
+  - PEPBigData (0.5.4):
     - Aspects
+    - FMDB
   - PEPiFlyMSC (1.180)
   - PEPNetworking (0.5.1):
     - AFNetworking (~> 4.0.0)
-  - PEPReaderSDK (2.7.2):
+  - PEPReaderSDK (2.7.3):
     - iosMath
     - Masonry
     - PEPBigData (>= 0.4.4)
@@ -36,6 +41,7 @@ PODS:
 
 DEPENDENCIES:
   - iosMath
+  - MZTimerLabel
   - PEPBigData (from `https://github.com/PEPDigitalPublishing/PEPBigData.git`)
   - PEPiFlyMSC (from `https://github.com/PEPDigitalPublishing/PEPiFlyMSC.git`)
   - PEPNetworking (from `https://github.com/PEPDigitalPublishing/PEPNetworking.git`)
@@ -47,8 +53,10 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - Aspects
+    - FMDB
     - iosMath
     - Masonry
+    - MZTimerLabel
     - RKAPPMonitorView
     - SAMKeychain
     - SSZipArchive
@@ -66,7 +74,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   PEPBigData:
-    :commit: 3ddf38a5c062bdf6121197878ee85c738c5e741e
+    :commit: b80590e5753b652e64a22dc3037b23710f1aed66
     :git: https://github.com/PEPDigitalPublishing/PEPBigData.git
   PEPiFlyMSC:
     :commit: 07848f421cfc13601e0837cd9b93ee26a1cf3abb
@@ -75,23 +83,25 @@ CHECKOUT OPTIONS:
     :commit: a861b4df693ed92ff452303bd370e04fceb93d96
     :git: https://github.com/PEPDigitalPublishing/PEPNetworking.git
   PEPReaderSDK:
-    :commit: 2fe821b758db2f9271a3d0cea85f774d468d393c
+    :commit: 200329d951cf4a48bdf1d35e30e09d3fc565b0b7
     :git: https://github.com/PEPDigitalPublishing/PEPReaderSDK.git
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  PEPBigData: bdbab146206006a566aaf660cf0910578cce4da7
+  MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
+  PEPBigData: a93404281d4f338e42be3ba6c9cd3d69aa0658c3
   PEPiFlyMSC: 257589a848c0ebdcc26457ec7758de1c4bb89137
   PEPNetworking: fa93e5223f4c0174882bccb4b827a87a3985a1ca
-  PEPReaderSDK: f2405677121f574d159e196de46e078284176135
+  PEPReaderSDK: 8536efa43261edcadf4a2ec728a7c315f0c39076
   RKAPPMonitorView: 4c770188e8938cefea76994e134f3be2055cfc16
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: c27eafd6b204d0de1965028e4e3a41b524b75c4b
+PODFILE CHECKSUM: 6ddbd72f2bd6d5088a82af47f14b9abb28ccbf59
 
 COCOAPODS: 1.11.2

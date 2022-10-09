@@ -1,5 +1,5 @@
 platform :ios, '10.0'
-
+install! 'cocoapods', :disable_input_output_paths => true
 workspace 'PEPReaderDemo.xcworkspace'
 
 def common_pods
@@ -17,6 +17,7 @@ def common_pods
 #    pod 'PEPReaderSDK_YiQi', :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK_YiQi.git'
 #    pod 'YIQISpeechEngine', :git => 'https://gitee.com/guxiong/YIQISpeechEngine.git'
     pod 'iosMath'
+    pod 'MZTimerLabel'
 end
 
 
