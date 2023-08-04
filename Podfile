@@ -16,8 +16,8 @@ def common_pods
     # 一起作业使用这两行
 #    pod 'PEPReaderSDK_YiQi', :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK_YiQi.git'
 #    pod 'YIQISpeechEngine', :git => 'https://gitee.com/guxiong/YIQISpeechEngine.git'
-    pod 'iosMath'
-    pod 'MZTimerLabel'
+#    pod 'iosMath'
+#    pod 'MZTimerLabel'
 end
 
 

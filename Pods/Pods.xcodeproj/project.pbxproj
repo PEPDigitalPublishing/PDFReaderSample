@@ -17,23 +17,22 @@
 				593DC916C33CAA33A26A277EDE7336D9 /* PBXTargetDependency */,
 			);
 			name = PEPBigData;
-			productName = PEPBigData;
 		};
 		E0581960891AF2E9DD9821E451662885 /* PEPReaderSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 39AA3AFBF29E0CA71E03EE667660677B /* Build configuration list for PBXAggregateTarget "PEPReaderSDK" */;
+			buildConfigurationList = 8BA0BC4642D408746A8D499D58006E00 /* Build configuration list for PBXAggregateTarget "PEPReaderSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
-				C58D7AADBB371770D1C5BD1FE0054633 /* PBXTargetDependency */,
-				EF96CAACB35CD89669F3588C0B92AB18 /* PBXTargetDependency */,
-				D5EF40CCC8485503DA48C372C5EFCCFB /* PBXTargetDependency */,
-				7D62BC2B63B760C9F558D7D79D4BD82A /* PBXTargetDependency */,
-				4BC829936E933B49D9FB604E2DA0E90D /* PBXTargetDependency */,
-				7B03815606475C2367F829D82EFE6917 /* PBXTargetDependency */,
+				83A3AA83F6929BD0D04206E389337FEB /* PBXTargetDependency */,
+				C9A196C540DAF954CC5050257128CCF3 /* PBXTargetDependency */,
+				6AD8B7FB54888479B88AA3F85D823104 /* PBXTargetDependency */,
+				32989D54FECA5DF70C158926F9F3D355 /* PBXTargetDependency */,
+				FA1748E8D79601531464EE4834DAFCD9 /* PBXTargetDependency */,
+				5D35395D9811D8ED9E19EE0B67B47A64 /* PBXTargetDependency */,
+				5C1DCE62F8311CE31055AE71379683CF /* PBXTargetDependency */,
 			);
 			name = PEPReaderSDK;
-			productName = PEPReaderSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -44,8 +43,6 @@
 		01D5FBC350E24AD4BF493C0AF742E47E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D6059B97EBCC98E28B7E5B46105C36 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		06C942E07A2B5601CA65C4B1FE5C0EBD /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = E8273A5DD43E56F4F8998D53BEF50FF8 /* mz_strm_buf.c */; };
 		07541C15D4128018270711E8CE92CA90 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D8F730871B835D055A79B1A95C2952 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		09F0D34103C923D51A4C52FA597C4C15 /* NSBezierPath+addLineToPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E91AAF3A9265434DEE61D1E658231E4 /* NSBezierPath+addLineToPoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0AA903E0D292B2DFA2CD0DE2B8CFA0B1 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BD59BE2294245F9B8FE9AF84F6D416 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0D1673FBF0AE377B1F81A362A9008A6C /* mz_strm_wzaes.h in Headers */ = {isa = PBXBuildFile; fileRef = 139729DD983EA22B472FA478CD760121 /* mz_strm_wzaes.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0D24D94D6F6C8785CEAF74F24000CCA7 /* PEPDownloadQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA3149D728B359D096753D202957A5E /* PEPDownloadQueue.m */; };
 		109B0949BC1920E032EAD8B8EEABF0C3 /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 343D8E716CE75A0D53E855E9BE726F8F /* mz_strm_mem.c */; };
@@ -55,31 +52,30 @@
 		1A146654BE450F1F3F4BDB783245F0B2 /* PEPNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB4D295D533FE46190BD39E91895020 /* PEPNetworking-dummy.m */; };
 		1BBCE9841C6338409F3F66B2AA8BEE04 /* PEPNetworkingCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E341851A978ABE95222335DAF5152E9 /* PEPNetworkingCacheManager.m */; };
 		1C7AEE81BE599140319CC7E705C38B61 /* mz_strm_pkcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 253C6CAF18457D676DE60350A470BA72 /* mz_strm_pkcrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1CB142BF47F72F3A687B428924EF01E4 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951DABAC206E38C79EFA24AB8EB2E97 /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1D8E445F6ED189A6CC9DCCE4250C856F /* xits-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5ECD0585108F750905287098448477F /* xits-math.otf */; };
 		1E11F911FB3EA56F71F132640774A2D0 /* IFlySpeechEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E699DB907C4914180713060562E13652 /* IFlySpeechEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1E7896735CBB30BFD596366E93A0C1CE /* ISEResultSyll.m in Sources */ = {isa = PBXBuildFile; fileRef = 4548CF8231A274ABBAC28A005662CD61 /* ISEResultSyll.m */; };
-		1FB6B71CF1FA8CE29D2719A55AC5053F /* MTMathList.h in Headers */ = {isa = PBXBuildFile; fileRef = 792F5E5A5BCA666DDA0817F70CD02568 /* MTMathList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E9E93475B928B6524D7D8AB1D752508 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BD59BE2294245F9B8FE9AF84F6D416 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F4C6CB9F24010BDB22C470FA16A9302 /* texgyretermes-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0441F3863FBEC945ABC77CF5B7535F73 /* texgyretermes-math.plist */; };
+		2012E5F08C87232AFA299F08F4F9E5FB /* latinmodern-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDF6EB7C95020063F23D94771E6D4061 /* latinmodern-math.plist */; };
 		212E3A6FE041013EAB39BD921317B82F /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A76C6461EFEC01531FF33DBA678F21 /* FMDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		22CC48A8D2BD227AEA453DA49A8573D4 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA600D6B305EBAD4FB7A353F076FDB /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		22EC1B605760E88392392BB710DF4255 /* IFlySpeechRecognizerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A30972A256626F852EAA8FCB547C618 /* IFlySpeechRecognizerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		22F0A4C90C10F9DB15F6F94A33614777 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C0377F323CC67E89C1A966CF995DD6 /* Aspects.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		230B2F4C4E82727984756D5BBBF2AFE0 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAF7C33113F7103A6112759CD3CA174 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		242E31177212D83E45213DCA6288223B /* ISEResultPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA0423048811451974AE42F21FD7A4A /* ISEResultPhone.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		243974D35CA2FB29E2B3295EA6CC23F5 /* texgyretermes-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0441F3863FBEC945ABC77CF5B7535F73 /* texgyretermes-math.plist */; };
+		24B7BF4BDE25213801C667C1E0AFF9F3 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFE7AB6BD0B725A8EA2EB89E01B192B /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		24FDBA768E6CB5CCA32B730922E9DD55 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A41365C59B2325079B959E96967562 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		259E939C1070A4F93D3CABE7A0A4C48B /* ISEResultWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DC034F11D05636BD12C34AC6FE8B9B /* ISEResultWord.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		26EF0C671796F3DB79DF5AEFD90F5D83 /* ISEResultXmlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E71E16EF0E6D8A4E7C815F7EA8011D /* ISEResultXmlParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2707F87DB6E21A0A821860F6E1B94FCE /* xits-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 650937A31C2AB064DB328AFEDEA9C5E3 /* xits-math.plist */; };
+		2710D61762794E592C07FD2C9234DD38 /* MTUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F71EE4993CD7631DD0BED88A15AED /* MTUnicode.m */; };
 		2764D9F92D0E9088988B68FCC95CA4E9 /* WKWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 454B32218BEC2BC18136998C9C336E88 /* WKWebView+AFNetworking.m */; };
-		288EB68A583F01CDEDAAD55BBFC0B7AA /* MTMathListIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 353DA300D104251C64623F722BE5F76A /* MTMathListIndex.m */; };
 		2A68A9AAA8542BEC0D127F181C740647 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6893E01FB9C1F56A6996C79BCA609B75 /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2AF72AFE24F0867CA99274FAA2EAB6F9 /* PEPDownloadAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 50053EE697F6167A6EF8F1C3A3CD7964 /* PEPDownloadAgent.m */; };
-		2B8F836C61E69BE3CBEBC095B853BA1F /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E01B603E1609E16CCBBC23CCCADE04 /* YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2BECD1B67690F40959688F7B608F08C5 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A2232DEB780EFB338295A03C4A2357 /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B42732DDB4DA3B63541C683CC17B7E9 /* texgyretermes-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1C9F2C3EF4FEE202F05AED7DB64FDC46 /* texgyretermes-math.otf */; };
+		2B6EBA3B9F27474C3F95A43A9CBDE7FA /* iosMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5C9377DF9D66305B0D0A21817B028 /* iosMath-dummy.m */; };
 		2C3FDFC87525E8443E9F75B2E7513730 /* IFlyVoiceWakeuperDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7A0F90C2D3A8D51E95E5C5CB692DC9 /* IFlyVoiceWakeuperDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2C560826F5D8883FE1B3C294473E72EB /* MTMathListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D83BE253B01D227EE3F3BE0AC81F5 /* MTMathListBuilder.m */; };
 		2CE027294668B4C9C78E265D745E3474 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDA5DDE9C728D83E3CA4C88B4B119A5 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2D09E8AD5E89EC362BCCBAD2E6043B8C /* MTMathListDisplayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A208C42DA206A212AD729C4E425544E /* MTMathListDisplayInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2D87B6F2AE25A9931AEE5B9F00B049BD /* IFlyRecognizerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0BF7242F72984DAE93227344236657 /* IFlyRecognizerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2E7CF74A744210DAC61EDD12F01DBF12 /* PEPDownloadOperationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7372FA4208045CA4FC8BA75BEB1AD9EA /* PEPDownloadOperationProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2EDA398647E7D11BDA83024E47ACDE94 /* PEPDownloadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A824EC499EA3D43A579C1AB9C39045 /* PEPDownloadOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -88,42 +84,46 @@
 		31EE23287A412608D6BE66D6D68CEE2A /* IFlySpeechError.h in Headers */ = {isa = PBXBuildFile; fileRef = 513A8A402D0FD25DB9E43433A924A344 /* IFlySpeechError.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3372BC3C0A92AB48CC496F5B148A5C2D /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4BEAAC2C171D141EB8A7602FC28BC /* AFImageDownloader.m */; };
 		33A10C214398F7741EF8328CB81B4851 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D1EAAF0786D10FE86D0C4FA3628619 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33C115168A3E77D98CCCBE709093BDEE /* MTMathList.h in Headers */ = {isa = PBXBuildFile; fileRef = 792F5E5A5BCA666DDA0817F70CD02568 /* MTMathList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3473F62B8358F1529A0ACDB5AB147743 /* MTUnicode.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AF04FD7115E310DB2A89F465BAD640 /* MTUnicode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		355136B3939BD200EC22ACEE704048D3 /* IFlyUserWords.h in Headers */ = {isa = PBXBuildFile; fileRef = 22770B74C690086873CE13FC77F725E9 /* IFlyUserWords.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		35DFA4264FE314083D1A7D386C709BE5 /* PEPNetworkingMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4633E3489AD43F05E776EF272933BD4A /* PEPNetworkingMemoryCache.m */; };
 		3679B145550294EB3BDDA827CE62AF47 /* mz_strm_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = B30877033EC7A679AFB26D0C837F4E62 /* mz_strm_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		379902484CC10B58ACBD21D949702DC1 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF5A48610A6AF7AA83A00991A9BFA66 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		387523916AB680AC722992079BB01F67 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3C0F582434E0B2AFE5BED902191E07 /* MASLayoutConstraint.m */; };
-		39129B4387DB846A0B7562B95AA00E18 /* MTFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C94E58DC83C63353DDEBFD4357B0D1A /* MTFontManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3ABE965DECD45CD5798FCDEADC73488C /* MTUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F71EE4993CD7631DD0BED88A15AED /* MTUnicode.m */; };
+		395F771A11705B7D6878A9B6A620E142 /* MTFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C94E58DC83C63353DDEBFD4357B0D1A /* MTFontManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3ABD0237EAD200C6C0C63296BB70E253 /* NSBezierPath+addLineToPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3E7A4B88367CD7040419FBD15C648 /* NSBezierPath+addLineToPoint.m */; };
 		3AF45D1B033D1A4B64453248E928BC36 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1A2D3B5CA63962FB6183A268D66C96 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3B749B0DA006A8EC75B9F9D0765EBE6F /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BD7F611CC21B1C103697C69C031A91F5 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3B89F90EFC12DE1B3DC5B276B120A480 /* ISEResultReadWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D00876F81EDFAD27B3DFEF63FF3FE47 /* ISEResultReadWord.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3BDAF8A46872730B680D0914B4CD369A /* PEPLRUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E50DE6D58AE51865B054F838D85BACDF /* PEPLRUManager.m */; };
 		3D8E5E72EC70533E687D766D5DB0B68E /* IFlyDebugLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D6EFF68ADF31F228D7E2339761983530 /* IFlyDebugLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3EC8E95B67D92A2D45ADB889A0408A71 /* latinmodern-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBC59F0044A24EA0924CE9BCC4EB2088 /* latinmodern-math.otf */; };
+		3F0598A667540B0BAE4924E486A72EE7 /* MTMathListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D83BE253B01D227EE3F3BE0AC81F5 /* MTMathListBuilder.m */; };
 		3F7909569DC97D69592842C0B12AD1C0 /* IFlyRecognizerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FFDF3D2CC71571337D7DBB2D87906BC /* IFlyRecognizerViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		403CE0FAAAC1D4D623895737A7EE049D /* xits-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5ECD0585108F750905287098448477F /* xits-math.otf */; };
 		41E3697A162268382FC850F80C21D9EA /* PEPNetworkingMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DD749B874B629BDB97AEB90434C0EE /* PEPNetworkingMemoryCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		42AC1978036A7A55715CC33DF156AB7C /* IFlySpeechUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A36BE3CC7A1A0CBF1620969BC18190 /* IFlySpeechUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		42E543C6C23AF4792D82D23CAC723C12 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CA645AA790CBCAC3118449D226B08C12 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		43A22F171375E6A30DA8DC9BE2B61754 /* PEPNetworkingDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1985FB7BB67BFF879164C9C07B75B0 /* PEPNetworkingDiskCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		43BA6EE5473F448C6314426709CA9376 /* ISEResultSyll.h in Headers */ = {isa = PBXBuildFile; fileRef = 97324C61C314723EDC30A77998A472C2 /* ISEResultSyll.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4411CF4F304C6EF132AF52C73F698541 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EF513886669141C9BF4E1CD844CF8E /* YYClassInfo.m */; };
 		4563374304C6A77B6333EA9C74802F23 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 1564BCE7F9444D0880BB5B9A4D1127CC /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		457516E4EEE536D0D40BD90D79E5ADDD /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDE1BE1E0F4A37E7CFFC2640A4733DD /* MASConstraintMaker.m */; };
+		458CD124B392175CA2CCA74D3EE791E1 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBDAFD41C3330EF1C9ABBC4CC882E0 /* YYModel-dummy.m */; };
 		48561B6139042B5871F5E722FF9F86DC /* PcmPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4130992D336A28F9AFCF68A6F7766ADB /* PcmPlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4A513E64AD0BFA2A77B4BAC3CA37627B /* PEPHttpRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCCB10F2AA6DC8B6FB8CD7C547317BE /* PEPHttpRequestAgent.m */; };
-		4A8E4E16D4FC41CA2721AB39C5EF5491 /* MTFont+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5347425045064631299A53F1FF492390 /* MTFont+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4A9A2A206D43EF2ABA87D2FE02A1CC60 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C28AFB4043F3E3D343CF6157CDBF4EEF /* AFHTTPSessionManager.m */; };
 		4BB2F998149A4575929D3BE15322FEB7 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 94642C1655768BB2DE9D37FFF3A5075C /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		502086843BEBA1054B7313939E90F40F /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = F66D6968E988C4693F363DC86D1C0869 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		502293FD830762304E0C18463F03E174 /* PEPDownloadQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 866D7A908DF3AB028C615965C25BD3EA /* PEPDownloadQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		507532C67625CE87DC5BFC3B54D57FB3 /* mz_strm_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F206FC0A64346C456B7E78D1BC9EE3D /* mz_strm_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		50A4B4561D0F8D6AFE9F064EF8F46E78 /* MTMathList.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6F297D4B0338DFD2EA6F694462511 /* MTMathList.m */; };
 		51A47CDB3B6E2D87BEA0BCE8C5A40101 /* IFlySpeechSynthesizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A78E7D83A7C07378B420D1F561FDDF32 /* IFlySpeechSynthesizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5230AB565C667DDFFB2B6EA476519368 /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = B80BFA09A8CD89BAB3314126052EC223 /* mz_strm_wzaes.c */; };
+		53C8FD610C693426267F0288C64953E3 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951DABAC206E38C79EFA24AB8EB2E97 /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		5478E1576B0C29AE613BA5B653D8D129 /* WKWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2D47F7F639365DF07A69169BF4E57B /* WKWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5581B9D5D9E32D76CEDCFAF79D9C0E00 /* PEPDownloadUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFF820F72D5955B4A54235D36F1405F /* PEPDownloadUtilities.m */; };
+		571E4C33773DB40436FECB989B0E77D1 /* MTMathListBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB577ECDC45821A45E2BD2987AF1C32 /* MTMathListBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BF889B47B9834A1A4C4183584F1DE12 /* PEPHttpRequestAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = E2CD802441E404F9AB44BF91E00CDC43 /* PEPHttpRequestAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C31571B491C3EF63C7AD1256AF283F0 /* MTMathListIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E7634F8FF544B2B4C74E997853EA5F /* MTMathListIndex.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5C71F72591C829F5A63E0AE3B15F252F /* IFlyAudioSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBA735103C303D3C237B95F139181D6 /* IFlyAudioSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5CF2E3F3B6C135AE22404078E015B60B /* PEPDownloadAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DE5EA1E29DC6764ACAB7BC9F0D974D /* PEPDownloadAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5D50C92481B31B9177A0C3E8737F5DC4 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BBC85C74C2976F6CD8BF92A97F3F4C /* NSArray+MASAdditions.m */; };
@@ -132,41 +132,45 @@
 		5FE95AED68D6A96C507BC56F43A0A01B /* ISEResultPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DB1E1BB7E436BAE5E102CDA15FC4 /* ISEResultPhone.m */; };
 		60215DCC1499E2371D5CEEDEC884C367 /* ISEResultReadSyllable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E83907EA8D3E83588DC2EDE7C72642B /* ISEResultReadSyllable.m */; };
 		61A7D87BBED2E25A2C2654383830288A /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39360D341869B82F48C44FE64C2F4B6A /* UIButton+AFNetworking.m */; };
+		62453D213BA91B07C8C823420AF6E902 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E51F32224B9E64DB68EB4A8700C521 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6272509AD78621F2605991471268E0B9 /* MTFontMathTable.h in Headers */ = {isa = PBXBuildFile; fileRef = D927BC297E5AC5A79D9F7337FD36A72E /* MTFontMathTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		634805D82A898033489DD5FD7F85E3FB /* MTFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C1B453E0D34978AD393FB9FC27B3AF /* MTFont.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		635C83AC0D421612A5C3D0BA115FC7A7 /* PEPDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4E9ED63404D23C7941BA5D6851AE1 /* PEPDownloadOperation.m */; };
-		63A7FD4017AD89B503A5FA810054CD5E /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1BC53B16EC4B93117D97CA16BC4CEF /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		660CA7F4A94A95B838289478B53CD468 /* xits-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = 650937A31C2AB064DB328AFEDEA9C5E3 /* xits-math.plist */; };
 		6655F4E178741D2EF4557DC5D446232F /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7815A9FF9470650EFE5DF0344D53409F /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		668BD1E982BA7792E1B76D6EC350AAA3 /* PEPDownloadUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2D6F1F0F488934356320820D408E9F /* PEPDownloadUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		669ED65374FA6566D6678CA514B85ABE /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B6347645ACDC0A1C95F81D00391A5CA2 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		674EF84ACD260889AA34FF9D396373A6 /* MTFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FFA1A9A1A50F29B672BAE2B34306D0 /* MTFont.m */; };
-		68E2044871F46DA3247A9ED703334E58 /* MTTypesetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD974366F50963215CD1674BFD21908 /* MTTypesetter.m */; };
+		66E13DB8C86784F0633D454487BC56AF /* MTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B60EBBB83BFA940AAB14C6ADBF2B88 /* MTLabel.m */; };
 		69224300D5BE4016BE5E7AD9CD654D8C /* ISEParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E72F01E47A4DA39FA167EC115FC52D /* ISEParams.m */; };
 		69264E034E5F1F128782429391431DFF /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0AB24C5689E44D4393BBF7CEE6EBE4 /* Aspects.m */; };
 		69F117D8EEA40361E2EED6CF7626E9D5 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C71E1414FA846A2B5EAE7710DE76044D /* AFAutoPurgingImageCache.m */; };
-		6A791855D4BC8E8E4BDC9DA278A37E17 /* latinmodern-math.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDF6EB7C95020063F23D94771E6D4061 /* latinmodern-math.plist */; };
 		6BE3F0F44DBEEDCD1796F499F0C85A84 /* PEPUploadAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A815BF15222394921B98E172243F33 /* PEPUploadAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6BEE84A7293684F24F0FC86012792198 /* IFlyISVRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2069E4DF7358001FCECFA61D4E77535A /* IFlyISVRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6D79339E7B531FB530A43F7D261C6688 /* mz_strm_zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1D55B9D8200E568017522F9A2B9ABD /* mz_strm_zlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6E48825791E276D919338E68957E07C0 /* ISEResultReadSyllable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAF7210D96A8A55AC04707C6F5EEDC5 /* ISEResultReadSyllable.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6E5761B959952D035334BC5A4164539A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D0219A40E6A6F98BFCFD3EE06A7057F8 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6F3FF69B67A0081F2AB99C4ED17B23B6 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EF513886669141C9BF4E1CD844CF8E /* YYClassInfo.m */; };
+		6ECE437725860C3BB6E2C5AC910AA068 /* MTMathAtomFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = BF07202E5D8A9057F17863FE1F2C76FB /* MTMathAtomFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		704E6E494A06EA86348E495BBF3C0590 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 224484723CF873492E1358DD9801F18A /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		713B64DC0A9D7D317453BEA15E50E64B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EC40263D8A1E6D2713FC6CB8F092F6DA /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		71C439FB8C05F7359DC8AFD5A2F4C893 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1BC53B16EC4B93117D97CA16BC4CEF /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		71D6F6949AFF0D30D539EEF09E03612C /* IFlyISVDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA3FFA887FEB70D2F2EE0AFCE33FE6F /* IFlyISVDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		723E51D566584FC1F05B5B6C1F5535B0 /* ISEResultReadWord.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAB40426DDDFEC63CCCBB28937CCD17 /* ISEResultReadWord.m */; };
+		72E3518FF7A3EA474517F2438CF6D798 /* NSView+backgroundColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EDA2DD390DD2A4663096AFB4ADCCCB /* NSView+backgroundColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73D293A312991775DC2054B1CB227A14 /* NSBezierPath+addLineToPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E91AAF3A9265434DEE61D1E658231E4 /* NSBezierPath+addLineToPoint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		743C79425F8BC9AF5CD616590D186F54 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D469CDD64C394C8BEE5120378E3A1247 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		743F70258974B098DFBAA4BC79417C64 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8DC6F807E99D7FF371098B3EA62DDF /* SSZipArchive.m */; };
 		74FBC0661BDFAE32B8893A69C32E6342 /* ISEResultWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 497F9F3C4C7C420C41F7AED5EABA58AB /* ISEResultWord.m */; };
-		75BDF23A9A4ED4F1C48B3D264C92E4D0 /* MTMathUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2F5A8EB7A17A28DA9C98D772DD4B36 /* MTMathUILabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		76665362A09358412C1F50B0236A32DC /* MTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A96B41B9FD72DC57A09C5F7191D4E80F /* MTConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7760C75DEAA902743650F5CF46332EDC /* RKAPPMonitorView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1EA4EFAF7A84E89E37927321B67DA7 /* RKAPPMonitorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7769A7203A7193A173E8ED7884BCA5F1 /* ISEResultTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B781E619871CF368F2233D1F484F96D4 /* ISEResultTools.m */; };
 		7B90B3AF394EA2BF9DB2E31AB46CD693 /* mz.h in Headers */ = {isa = PBXBuildFile; fileRef = 7785674B89239776D0494792901E3C2F /* mz.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7BC66A555B8174C4B765237B3F6ED68F /* IFlyVoiceWakeuper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA989CF099D4BBB6BA5DFA46E8B22A4 /* IFlyVoiceWakeuper.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7BF3FAFF29D0F1971E4561A47FF452AC /* mz_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8649864648E2CD6541AE8B372AC1AABF /* mz_compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7D83C22DD9CE2BD27D6AC79085505FC2 /* RKAPPMonitorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C9BD794090635DF056D2317736945 /* RKAPPMonitorView-dummy.m */; };
-		7E0185744A45A22AF3F30761FEB24299 /* MTMathListDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C19A9EE3C13DDBCF6872D37AF28A8B0 /* MTMathListDisplay.m */; };
 		7E5E183DE1744A129247BD410D89130A /* MZTimerLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA8FD749717596501684F2F2AC4A506 /* MZTimerLabel-dummy.m */; };
+		7E64D415C401648B991941E9F8AD57DE /* MTTypesetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD974366F50963215CD1674BFD21908 /* MTTypesetter.m */; };
+		7F0D5AA3265A81756C8D15DE62E3F608 /* MTFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FFA1A9A1A50F29B672BAE2B34306D0 /* MTFont.m */; };
 		7F7047F37956C0C7AD1EE7FB66EAFA67 /* IFlySpeechUnderstander.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE664B74F5D0CB8FCD679D0FC80B780 /* IFlySpeechUnderstander.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F8A41AA4B2E94B20E517A53AA8FCE68 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = D25C8DB8372620D45D00FD167C87FCF2 /* UIColor+HexString.m */; };
 		827971675DDE1BD225031B3F3C89450B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 040CD059246E92A6645EF85C0AA6B4CD /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		83EE59D3649738792E1525B29BBCD7CE /* PEPNetworkingDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 369D5B24D56F9DB85F629DBFADDA8405 /* PEPNetworkingDiskCache.m */; };
 		842A62BE73FFD303DB2D15F8FDE7E30C /* ISEResultFinal.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBCA3E10A657887AE27AC616233A670 /* ISEResultFinal.m */; };
@@ -176,9 +180,9 @@
 		8552D36E5949F86FB6C21172413DFE8E /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0167406B6407C5ED71B04A3F81BBEBB6 /* mz_zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		87ACDF930ECA3C65D213D88EF3FC86D5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A5B3025BA83FFA4F8C1BE6D6AE7980 /* MASCompositeConstraint.m */; };
 		87C8F4D0317031C27DF9432F03980BAA /* IFlySpeechEvaluatorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E18260F1D569906472AAA985DA9D9E /* IFlySpeechEvaluatorDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		886BBBC4F1B8E2FD01A36D1F8ACBA3AA /* MTMathListDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B1CB9E467966FA9EA17D56B55E3CAA /* MTMathListDisplay.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8969E11AE8DBFA5FCD748224BD92388D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC92D141C531004E274C4277D41A07F /* AFNetworking-dummy.m */; };
 		8A87E00B324A803439CFD92501DFEB73 /* PEPNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7A20ABD5FC5B7149ED9A6D2ECF610F /* PEPNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B6CF92180A9311006D875BDEE1BF144 /* MTTypesetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7243D65C359D6410CD6E004CCE676217 /* MTTypesetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8B780FDCBD5D1C515040F49E97E932C2 /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A119BB4B382CC460A68D60A4EA0A2B4 /* mz_strm_zlib.c */; };
 		8C1C666EA02E741AF806D028D8760E7F /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E92280CE3737975AC0BB93EDDC65052 /* Masonry-dummy.m */; };
 		8C4C40BC590CAEE71590A14AA93683CF /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FFEADCB6C2DE48303697FBFD8D0DB3 /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -186,97 +190,94 @@
 		8C75F0C86F168CE4FB1AF076644E703A /* PEPDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7A3FE98FA626945F4B2A0C54DA9D38 /* PEPDownloadManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8D7DE53F26C0F9A37C12F87F1EF50ABB /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA035D2E2B9541B2111F462B1383570 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8EB4B783BE72EC6FA71C9EEE36D530D7 /* mz_strm_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 8694B65F5293958211DDA3017AF03456 /* mz_strm_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8EB861E4B403E84B58FF3D0FF3EA4304 /* MTFontMathTable.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C9634CF157BC1AF4C91B95E321BB68 /* MTFontMathTable.m */; };
 		9046B960CF74040783739F9315BF3A5E /* IFlySpeechRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 219BC738C059A972E918D0BBCFCB2533 /* IFlySpeechRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9174037EB3F48D246CB8B41A8F88C184 /* PEPLRUManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 477E80E31AFE6881963E0A257700E724 /* PEPLRUManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		91E674A076B1A3DB39907BF977998ACE /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = 907D0E1B80992DA4001828B5BF46809D /* mz_os.c */; };
+		91FE4D5003339E7C9E40B95A2D89EC68 /* MTMathListIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 353DA300D104251C64623F722BE5F76A /* MTMathListIndex.m */; };
 		96AFC1CD24045158C9BAC02ED5B393BC /* MZTimerLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B01580D97B7A509D4008A868CAC5AE64 /* MZTimerLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		96C7E4E439CDC1F513BC442FA5ACAED2 /* ISEResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD9BBBCA692D0E24CE3E2B733C1984E /* ISEResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		985AACC5C3422BB5ECDE643BD22F7D6B /* PcmPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C07823E4355E4F53A846B0DABE1C1CB /* PcmPlayer.m */; };
 		993CEE15AED3BD8D08DA2BCD78218EB0 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2D86B4A3F2EC56F4A5A6A8B205DC41 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99593EB1178BABE3BDB2FD6A4A81A63F /* MTMathListDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C19A9EE3C13DDBCF6872D37AF28A8B0 /* MTMathListDisplay.m */; };
 		99626E8F5686EB830D21F97B1A313A67 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE71CBE59E16B31F9AD5B9D1C89F19E /* View+MASAdditions.m */; };
-		99BF356609BCA20B8B9AE9FA6BB89729 /* MTMathAtomFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A3E8D1C09363878F5F2B4E9F517F87 /* MTMathAtomFactory.m */; };
 		9A1A3AC308F60C5B6376A4E7EB9B1BB1 /* IFlySpeechEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = 98975DAB1455EB8DC2E8A575BD2389C3 /* IFlySpeechEvaluator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9A85082D0F37A9EEE92CBB9F3EA86505 /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BB37416BE7444B99071CA9E7E37ACAA /* mz_zip.c */; };
 		9AEDD1D36577E49850AC929CD44E2FDC /* IFlyDataUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A86DA64BBF7AEB85B6098D58D4A109 /* IFlyDataUploader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9B58CF09BAA704F2EAE3DBDB9776C86B /* ISEResultReadSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CDC4F92A723A39A05160CEE97B4F3A /* ISEResultReadSentence.m */; };
 		9B9D5BF5A9583E295E2DC177F33044E5 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAEF2CC7F63014EA9AFDD57E9EBD871 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9D3833E4CB556864510568FF5520110B /* PcmPlayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 10596057EF23FFBFBC416E2EA884E059 /* PcmPlayerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9D75471785D551C710E4A4773A6B2E0A /* MTFontMathTable.h in Headers */ = {isa = PBXBuildFile; fileRef = D927BC297E5AC5A79D9F7337FD36A72E /* MTFontMathTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A171F02074572EED78888B15096F7709 /* NSView+backgroundColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EDA2DD390DD2A4663096AFB4ADCCCB /* NSView+backgroundColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A288E84494010F53D9F46D8D996AE305 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFE7AB6BD0B725A8EA2EB89E01B192B /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A2D7C08D4ACFAE8488B90C8F0B67F52B /* NSColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D7D8BD8D4D3E16327325BD3C366807 /* NSColor+HexString.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A2FC39AC108767F51D41C869577A11CC /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C7EF340550F70010376C52C9042861 /* AFNetworkActivityIndicatorManager.m */; };
+		A483499E420D7AD35BC6463AB5F9B9F7 /* MTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A96B41B9FD72DC57A09C5F7191D4E80F /* MTConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A523D140C418A1E3C65471385B9D13B4 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FF095AE9914937224C80E39F3EF935 /* UIProgressView+AFNetworking.m */; };
-		A7F081D61231B2CD5012A807348F34D7 /* texgyretermes-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1C9F2C3EF4FEE202F05AED7DB64FDC46 /* texgyretermes-math.otf */; };
 		A8BA540C3FEAD1ECBB76B71C18962B15 /* RKAPPMonitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3DBED61A5F4A7DCAC7F3737F8DDDF7 /* RKAPPMonitorView.m */; };
 		AA0DC6093390486A8E751A4F5F10D0DC /* mz_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D093EA0D991B8A25E4F39C48377D039 /* mz_os_posix.c */; };
 		AB08D8108A5490785DC4FCA372685FF6 /* IFlyResourceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E2F5289C2127B2DAEF7ADEB3AB219C4E /* IFlyResourceUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ABA76F2C03934C61A4633B9B2AD4F058 /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = 896EC8E30E0AF4D73953EBFD7B926254 /* mz_strm.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AC59533064F8C76BBBD0CFA5BA935EF3 /* IFlyMSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 134E1651BF954BD3D5844EEED5393817 /* IFlyMSC.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ACE84EB117EDD90B79AF71B105CCCBD9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A17E1E990832C5B9CBAAC4A678A252ED /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ACFF703878ED811415E82ADA54E6455D /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B45E3FC987D2B11E05A3830B1657C4 /* SAMKeychain-dummy.m */; };
 		B1CFDA45CB1053A4B16F578338C13E99 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B0BECEECE651E66565B6A4A81688F /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B1FCC563ACC13EFC6E80125A6E844616 /* ISEResultTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B2438D576FF1F8899CD0D396001BD57B /* ISEResultTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B2033BEF4B8DCEB6EA2C96BA290DE69F /* PEPDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB635E5317523E28EFCB3DA2C1F92A0 /* PEPDownloadManager.m */; };
 		B3C8E90A7C23FDF6CE8049E3754E9B03 /* mz_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E79DC96141963A4A5DCF12EE5DED39 /* mz_crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B3E1E994BB9C7B92CA8DAD17390D0039 /* MTMathListBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB577ECDC45821A45E2BD2987AF1C32 /* MTMathListBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B40D6A06C21606B13B058344F40C3EBF /* NSColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5EC508F885DDE9141E99B820AF0B09 /* NSColor+HexString.m */; };
+		B4CC4B6725211F4BB2A09440573648B1 /* MTMathList.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6F297D4B0338DFD2EA6F694462511 /* MTMathList.m */; };
 		B9105538C24CE170B6266E2314AD6E9E /* Pods-PDFReaderSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3829F6748AD7C33906C1F34E77A0B8C /* Pods-PDFReaderSample-dummy.m */; };
+		BB02E61323CAAB085C618A8DE3C35AF6 /* MTMathListDisplayInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A208C42DA206A212AD729C4E425544E /* MTMathListDisplayInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB4CAE6BA49E0BB59C1751564642B89E /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A2232DEB780EFB338295A03C4A2357 /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		BD4F128044F6343CD1AA0F78A3DFC7F9 /* IFlySetting.h in Headers */ = {isa = PBXBuildFile; fileRef = DA231BE4953105116B9E23550C2515B7 /* IFlySetting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE832260CB19D7772BDB9E1361975F2D /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E01B603E1609E16CCBBC23CCCADE04 /* YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BED205CBA306C75A12FF5B127AE62881 /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D254A9A6911B59DCE9C1C954C0F122B /* mz_zip_rw.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BEEA3F1EC3D035A7756D6B0AAD5E2979 /* IFlyIdentityVerifierDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EB39F702E5493E21F1FD1D2712AA56AD /* IFlyIdentityVerifierDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFA4DA18C6F43559B7B4246FCD3D3C45 /* MTMathUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59481C50038E900A6BD891B3608F75 /* MTMathUILabel.m */; };
 		C38D3A6CC4BC728594558EC51BBD6612 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1225561764422ACF610F3B107AAE7746 /* Aspects-dummy.m */; };
 		C3BCFCC0A79A4CBCF4BC5642BC2332AC /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0712593E09C36AC219104FF235680C /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C491539EBA917AF00B6F058F221CB8DA /* MTFontMathTable.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C9634CF157BC1AF4C91B95E321BB68 /* MTFontMathTable.m */; };
-		C5FEBA210EEF8EBDFBB9D4C9107BB2E2 /* MTUnicode.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AF04FD7115E310DB2A89F465BAD640 /* MTUnicode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C59153A98E3FED0E8D084CCEC289B1C8 /* NSColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D7D8BD8D4D3E16327325BD3C366807 /* NSColor+HexString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C59E95864976B456878B9A890A377108 /* MTFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE825137F2C0D42BB2264BF651810BE /* MTFontManager.m */; };
+		C6A6407EA9CC82BFADB800010C6B2E75 /* MTMathUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2F5A8EB7A17A28DA9C98D772DD4B36 /* MTMathUILabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C72C005E8C87BF4C5EE086EB1251E01D /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = 7249150B45BDC8790CEEEC9A2D77BB79 /* mz_crypt_apple.c */; };
 		C7B7F2C180369B02E6099E0D5EA902FA /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E04D72C8612344FC8189D2124C447F /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C86A1EFF549E67D1F2700EAC5FF7538A /* MTMathListIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E7634F8FF544B2B4C74E997853EA5F /* MTMathListIndex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C80FE90BFC0229E106392E4BC2A9924D /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B45E3FC987D2B11E05A3830B1657C4 /* SAMKeychain-dummy.m */; };
 		C8C03CBEE75CB7F863827F25BF32DA8B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9566F130773AA404A4E8718A48C7AFDA /* AFNetworkReachabilityManager.m */; };
 		C9E46AE0F38721E1916505293B41803C /* IFlySpeechConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 5709FA57C182159D391DAC25E22F0128 /* IFlySpeechConstant.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CB191345BCC56C623BB5B802261183A7 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 23AA3E79F7B5AE5AACE8F214C2A8C991 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CB68C5F4AD3107402F58C7A84E359712 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC7462D088E9FA7FA6A17712FE7CB9D /* MASConstraint.m */; };
-		CC2CF7F45BC9D0C0447E19B40B7C07E9 /* MTMathUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59481C50038E900A6BD891B3608F75 /* MTMathUILabel.m */; };
 		CC9143C86804200C16B6368E1CCBDE0A /* PEPNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4CF1CCACAD915D553A2517A74A416F /* PEPNetworkReachabilityManager.m */; };
 		CD12B6AC301CC6D3E89D64742EADC39F /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B5F8C7FBBA77ABFE446FB3B709EB13 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CD5B940BDD1914E4015544F63104D8E6 /* ISEResultSentence.m in Sources */ = {isa = PBXBuildFile; fileRef = 5335ABDA6AAC1DCC3FC9AE69782567AB /* ISEResultSentence.m */; };
-		CDADEBFC09B5E003DC9D927E02A48480 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = D25C8DB8372620D45D00FD167C87FCF2 /* UIColor+HexString.m */; };
 		CE1DD427FA7F3A9563A24653DDC0E3DC /* PEPUploadFormModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5223F3655666A03C6B306BBFAB84ADAD /* PEPUploadFormModel.m */; };
+		CE3D8D2ACE76A59D572042B5055CD835 /* MTMathAtomFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A3E8D1C09363878F5F2B4E9F517F87 /* MTMathAtomFactory.m */; };
+		CEFFD514B5B01C5CBD40C7A34E09EC4A /* latinmodern-math.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBC59F0044A24EA0924CE9BCC4EB2088 /* latinmodern-math.otf */; };
 		CFC27C3EA46C8C5B8FC1957925FCBF43 /* IFlySpeechSynthesizerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 692E10E474A11BE3BBF4D6E887F6E3E3 /* IFlySpeechSynthesizerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D069C7788A1BA44B483669C9E25DFAC3 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DA28F71B841AB66868ADAD5AF3B8BB8 /* ZipArchive.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D0A1B2AC537B21358E2FB29D21EBFF40 /* PEPUploadAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 03954D9805338905251342A220076F05 /* PEPUploadAgent.m */; };
 		D0C5BB8A6F0FCC0A4F5FAFACEDEABD90 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CB091B94BF70FA59F1E7797D302D6D /* FMDB-dummy.m */; };
-		D19A3F6210316EFFB4CBF77E2A0A43B0 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E51F32224B9E64DB68EB4A8700C521 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D21C6BC6F3D60185575E061447703390 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 72858A3A11421DAFB72B000B67989D50 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D282CD515ECB4D344D99048D72F2186D /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 28218A11F47E55FF7071A8C91265CEB5 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D29B160A7D3BCB3F0FA93DB2AF6329A4 /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = A11ED422ECA1C327C43747C1762A43F9 /* mz_compat.c */; };
 		D32D602E18E90FEEB3CFBF11C5305F6A /* IFlyTextUnderstander.h in Headers */ = {isa = PBXBuildFile; fileRef = 12BEEB80CC399ECD26B5A5F5738DF5EC /* IFlyTextUnderstander.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D33D15000F849D8ADB22230738A3BE10 /* MTFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C1B453E0D34978AD393FB9FC27B3AF /* MTFont.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D37BD0A2A55816DE627A28D73230DAC2 /* MTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = BEED82FCEC74EC0FBCDC9F2ABC9F146A /* MTLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D39F60972410ADE96F0A3EC3EFFE7339 /* MTLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = BEED82FCEC74EC0FBCDC9F2ABC9F146A /* MTLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D43380309815EEA67C52B47B4DE0A025 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C8478DDB62F46968823F240FFCB9B9 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D4E3B700E370497FD0709F2FAD02B7B5 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F877C230986A034F9B8E488DFDF46 /* UIImageView+AFNetworking.m */; };
 		D4F20FBCD717BC410970D70353BFB3C9 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF78B4AEEF7267F5194E511F1045B38 /* AFURLResponseSerialization.m */; };
-		D52C7607E024BBA5F8DFCCBA998E36E7 /* NSBezierPath+addLineToPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3E7A4B88367CD7040419FBD15C648 /* NSBezierPath+addLineToPoint.m */; };
-		D8EA17A50812204500ED3AF93D4ED088 /* NSView+backgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B51E37A5C3286E8BBADCD1EE9D3684 /* NSView+backgroundColor.m */; };
 		D91E22753F7E218CD86AD085756196EA /* ISEResultSentence.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9E0047D2ED7AF2C0DF97F96B9F16A2 /* ISEResultSentence.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D94606FD6932B455C44EDAE275073C9F /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D12806DC72ED02E8A0C7B96990BB5B1E /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D95008FB13FFD2D6C0EFD0A3886770D8 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8534AFE84721A682068ABD0DD1FC37FA /* SSZipCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DA07B3F6E41C7352F70988BF62244E0C /* mz_os.h in Headers */ = {isa = PBXBuildFile; fileRef = F740650BAD747EC8CCD878500646DE2A /* mz_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DD17BAD60381BB16F8252A09F6DD751A /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DA8735F8AC493A4BC950AEDE1CE622 /* SSZipArchive-dummy.m */; };
+		DE20848103BF4DBDBF305D9724B6D34E /* NSView+backgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B51E37A5C3286E8BBADCD1EE9D3684 /* NSView+backgroundColor.m */; };
 		DE32004038AE07612E90FDA105C76847 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEBCD1E94E5C055C62CBEF51A309D1 /* MZTimerLabel.m */; };
 		DE6276C17D6A122245F9D476BBBD101A /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57499C9806C750A348B56135F3914AB3 /* AFSecurityPolicy.m */; };
 		E1B7A75C7DC9C301B7E1D4DCBEA59F43 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5973C38501C26BC27F764C77666D06 /* UIRefreshControl+AFNetworking.m */; };
+		E2763BE139986FA8BE940E2E5B5E59FC /* MTMathListDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B1CB9E467966FA9EA17D56B55E3CAA /* MTMathListDisplay.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E2B3B8E2A3BC8BAB90683E1E1043D4A6 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 878A0E9BF6D20AC2F264F8481E669168 /* FMResultSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E3FE811D8501F3D58F4ED816475F17BA /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 9FBA2CA09BAE8D05398E59DD56E777DE /* mz_crypt.c */; };
 		E519AFB330A35F4C8F64069595B2276F /* IFlyIdentityResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 55982612DBAE3727A1AE271CB4F16223 /* IFlyIdentityResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E534EF42C7FD38A1520FB618D958D063 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FC07E08C424EA9BD323AFC199F2F29 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E54AD2814AE8F9903E75563FE72AFC7A /* MTMathAtomFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = BF07202E5D8A9057F17863FE1F2C76FB /* MTMathAtomFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5BD51BAEFB2650A7559ADDAD809B5FD /* NSColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5EC508F885DDE9141E99B820AF0B09 /* NSColor+HexString.m */; };
 		E6B40D1260AF2B8613F7233BCC52B2C6 /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 12BAB8663A23957A5FA8F9D6385B7367 /* mz_strm_os_posix.c */; };
 		E6F54F0CEADEC6F4F13EFFCCA0AEBB68 /* ISEResultXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1A71E08101BD3BEA9EFA59A3B1022 /* ISEResultXmlParser.m */; };
 		E8C64A2FE20081A696329B31E4F6DD54 /* IFlyContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 171A9E9F16431AD0673EBDC81B55CCBF /* IFlyContact.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E9671718C1F77C0447604AD997421145 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DBD43EE98D2DBE2E6241C20D3E4164 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E9808C817E1411D05365BA7FE68C8904 /* PEPUploadFormModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4262719125123EA7987858340A76ADAB /* PEPUploadFormModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E9C34423830FB6D58EC685176DD9EED2 /* MTTypesetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7243D65C359D6410CD6E004CCE676217 /* MTTypesetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EBDDB160E30EF95017310F71D5C4847F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 52941FCA7FC9E2EA11BBE56F0E8C488A /* AFURLRequestSerialization.m */; };
 		EC61F135632C5DC6D4D6BB6F96F14919 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = E02FA5040F6E3FBFE7FD538149B2BDE8 /* FMDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ED348673BB466C7745EB00FD7A558BA4 /* PEPNetworkingCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B813323D17559462D3D77B290026B14 /* PEPNetworkingCacheManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -285,19 +286,17 @@
 		F12EB7DF51A64F59A4D4DF3D69E4A5AF /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C2B0580F852F60C74D9F62D5A77A5FF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F1EDFEB80F8A1EFC77B4E149E0EF19C4 /* ISEResultFinal.h in Headers */ = {isa = PBXBuildFile; fileRef = A2139B3B8CE9D57B4C2B770D7F1ADF70 /* ISEResultFinal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F253994CE08422D1AD4468F67B9104AD /* IFlyVerifierUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DD5E94DE1EB260115F42EDFEDC521F /* IFlyVerifierUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F3109FF767F33630E65C256980A87CD0 /* MTFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE825137F2C0D42BB2264BF651810BE /* MTFontManager.m */; };
+		F367CE5E9ADED22B8BE3017974228E2E /* MTFont+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5347425045064631299A53F1FF492390 /* MTFont+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F460025712725610D17299E621CAE259 /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = 664B3B1C6C27D0DB9494AB7BA00561A1 /* mz_zip_rw.c */; };
-		F5B6158C9AC13291BD52201A5D77FBB9 /* iosMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5C9377DF9D66305B0D0A21817B028 /* iosMath-dummy.m */; };
 		F5B8C82F303FAEAC8AA9A70EB5074BD7 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CEC8FCBAE4EE7794642FC124283C15 /* UIActivityIndicatorView+AFNetworking.m */; };
 		F6CF40093F3BC671F1860ACC0164B2B7 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = 930A9168CFF7658BED9DAC6581B9C04A /* mz_strm.c */; };
-		F8D49C35D1FA743324AD1B967F9C3333 /* IosMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD6CCDD2D33037573E94D77C35082DA /* IosMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7B2E246A9DE5FDF561D17D182DD03E0 /* IosMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD6CCDD2D33037573E94D77C35082DA /* IosMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F9DBE51211331E97889A9C09698DE065 /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 7792D449781662D72D49ECDAECCD266B /* mz_strm_pkcrypt.c */; };
-		FABBAD59EFB5B1D0605D13EBA75A7280 /* MTLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B60EBBB83BFA940AAB14C6ADBF2B88 /* MTLabel.m */; };
-		FB144E1F09B26D50B59CDB9243012A87 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD39A3AB3099A640B51F306FF58CA2FF /* NSObject+YYModel.m */; };
+		FACFD7AD88149C7716E786094170B8D5 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD39A3AB3099A640B51F306FF58CA2FF /* NSObject+YYModel.m */; };
 		FD2B7DCBE9FCBBB7044804478E7ABD18 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82489FE2833B04C6BE441C257223CE33 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		FD515EA00C1136C86B78FC74C9C1ACAF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9EA244B35FE40D746E4029A0ED0B8 /* ViewController+MASAdditions.m */; };
 		FDB4778F434E3E6EF256637D9DEC6EA5 /* mz_strm_split.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB565A725BB9CD3BC1A44919AACE487 /* mz_strm_split.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FEDFA7DA50694929D240C946B809E78A /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FBDAFD41C3330EF1C9ABBC4CC882E0 /* YYModel-dummy.m */; };
+		FE97D300A7E492B3B7535D65DCC2F391 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 29FC07E08C424EA9BD323AFC199F2F29 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -307,6 +306,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
 			remoteInfo = FMDB;
+		};
+		0D38D9BE09D9CA1F5102860AF55ACB27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
 		};
 		13A585CE3DD0BE690F7496DDE592607E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -321,13 +327,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = CDFFD9E4EDE0EEC0D6737A0D45E96545;
 			remoteInfo = PEPBigData;
-		};
-		1BB3277E9F6211D298DF2795C5345AC7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D02780FC11341C3D40A209D0ED04EE0;
-			remoteInfo = iosMath;
 		};
 		1C27C0FC54B52FD9CC56EC7C12710950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -385,26 +384,40 @@
 			remoteGlobalIDString = F60E38364AFF5E1349FF07415B944396;
 			remoteInfo = SSZipArchive;
 		};
-		6FD155C2F24B528E4235AD58A59BEE66 /* PBXContainerItemProxy */ = {
+		64B258F87594879E25C540DE6C0F42AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8136C2C6F8BD7044AAE2D1C409E644A4;
+			remoteInfo = MZTimerLabel;
+		};
+		68C9B2AF3BD4EED60DCFA35677B9BC0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
+			remoteInfo = SAMKeychain;
+		};
+		70C336DAE6FF82649F84E954CBF1B3AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		9EF74D6EA04BA3EC3C1B3620790CFFFC /* PBXContainerItemProxy */ = {
+		8B5192167153F64D2BE9E943BAC71267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5F2C4737E902D72711853B3875FBC5;
+			remoteInfo = "iosMath-mathFonts";
+		};
+		95C55E13C139EB708234F0614F5E8641 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BD4C0A2F1C60C185A3802EDFD0E74ADA;
 			remoteInfo = PEPNetworking;
-		};
-		A1CEDAA1DAE5A68B04A7F015750EEFCF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
-			remoteInfo = YYModel;
 		};
 		BC71B8C5142C67B7469CAE7484CC8C90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -420,13 +433,6 @@
 			remoteGlobalIDString = 8136C2C6F8BD7044AAE2D1C409E644A4;
 			remoteInfo = MZTimerLabel;
 		};
-		C1F1FC668B9FE6812334DE64FB0658B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF5F2C4737E902D72711853B3875FBC5;
-			remoteInfo = "iosMath-mathFonts";
-		};
 		C3D0B5BB1B1A9FC0B53C5A1A75176B31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -434,19 +440,12 @@
 			remoteGlobalIDString = C6539905C4D50932B36244650B93C79B;
 			remoteInfo = Aspects;
 		};
-		C880D00AD13FC261F4EC0454A78FD6F7 /* PBXContainerItemProxy */ = {
+		CFF08B5FDCEA85F93A30509E373DD9AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CDFFD9E4EDE0EEC0D6737A0D45E96545;
-			remoteInfo = PEPBigData;
-		};
-		D54EEB2D6A8DC6A09F440E6CCF6DB6DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
-			remoteInfo = SAMKeychain;
+			remoteGlobalIDString = 5D02780FC11341C3D40A209D0ED04EE0;
+			remoteInfo = iosMath;
 		};
 		D970115F643FAFBC881E784DC52C20A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -469,6 +468,13 @@
 			remoteGlobalIDString = C6539905C4D50932B36244650B93C79B;
 			remoteInfo = Aspects;
 		};
+		F67F2D3203F7613EFBCEBDD946566E9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDFFD9E4EDE0EEC0D6737A0D45E96545;
+			remoteInfo = PEPBigData;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -484,7 +490,7 @@
 		0F4CF1CCACAD915D553A2517A74A416F /* PEPNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PEPNetworkReachabilityManager.m; path = PEPNetworking/Classes/PEPHttpRequest/PEPNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		10596057EF23FFBFBC416E2EA884E059 /* PcmPlayerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PcmPlayerDelegate.h; path = pcm/PcmPlayerDelegate.h; sourceTree = "<group>"; };
 		1225561764422ACF610F3B107AAE7746 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
-		12BAB8663A23957A5FA8F9D6385B7367 /* mz_strm_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_os_posix.c; path = SSZipArchive/minizip/mz_strm_os_posix.c; sourceTree = "<group>"; };
+		12BAB8663A23957A5FA8F9D6385B7367 /* mz_strm_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_os_posix.c; path = SSZipArchive/minizip/mz_strm_os_posix.c; sourceTree = "<group>"; };
 		12BEEB80CC399ECD26B5A5F5738DF5EC /* IFlyTextUnderstander.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFlyTextUnderstander.h; path = iflyMSC.framework/Headers/IFlyTextUnderstander.h; sourceTree = "<group>"; };
 		134E1651BF954BD3D5844EEED5393817 /* IFlyMSC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFlyMSC.h; path = iflyMSC.framework/Headers/IFlyMSC.h; sourceTree = "<group>"; };
 		139729DD983EA22B472FA478CD760121 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_wzaes.h; path = SSZipArchive/minizip/mz_strm_wzaes.h; sourceTree = "<group>"; };
@@ -495,11 +501,11 @@
 		1A1D55B9D8200E568017522F9A2B9ABD /* mz_strm_zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_zlib.h; path = SSZipArchive/minizip/mz_strm_zlib.h; sourceTree = "<group>"; };
 		1AA8FD749717596501684F2F2AC4A506 /* MZTimerLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZTimerLabel-dummy.m"; sourceTree = "<group>"; };
 		1B6A47B52D493BBE7697D07888775A9A /* PEPiFlyMSC */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = PEPiFlyMSC; path = libPEPiFlyMSC.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BB37416BE7444B99071CA9E7E37ACAA /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
+		1BB37416BE7444B99071CA9E7E37ACAA /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
 		1BCD6F9070568DCBD3119E636569DD20 /* iosMath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosMath-prefix.pch"; sourceTree = "<group>"; };
 		1BE9EA244B35FE40D746E4029A0ED0B8 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		1C8FFA9AC330D10FF29A9BA804197E11 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
-		1C9F2C3EF4FEE202F05AED7DB64FDC46 /* texgyretermes-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "texgyretermes-math.otf"; path = "fonts/texgyretermes-math.otf"; sourceTree = "<group>"; };
+		1C9F2C3EF4FEE202F05AED7DB64FDC46 /* texgyretermes-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "texgyretermes-math.otf"; path = "fonts/texgyretermes-math.otf"; sourceTree = "<group>"; };
 		1D09430A4B1B294CD8085D500D717993 /* ResourceBundle-mathFonts-iosMath-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-mathFonts-iosMath-Info.plist"; sourceTree = "<group>"; };
 		1E92280CE3737975AC0BB93EDDC65052 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		1F6B0BECEECE651E66565B6A4A81688F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
@@ -522,12 +528,12 @@
 		2A2D6F1F0F488934356320820D408E9F /* PEPDownloadUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PEPDownloadUtilities.h; path = PEPNetworking/Classes/PEPDownlaod/PEPDownloader/PEPDownloadUtilities.h; sourceTree = "<group>"; };
 		2BA035D2E2B9541B2111F462B1383570 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		2C94E58DC83C63353DDEBFD4357B0D1A /* MTFontManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTFontManager.h; path = iosMath/render/MTFontManager.h; sourceTree = "<group>"; };
-		2D093EA0D991B8A25E4F39C48377D039 /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
+		2D093EA0D991B8A25E4F39C48377D039 /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
 		2EF6943D35A6CA06E130CB5029BE229B /* SSZipArchive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.debug.xcconfig; sourceTree = "<group>"; };
 		2F1593705C85B11993D3009CAA4B64FF /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
 		329919A2A986582FD63E1471E5655407 /* Pods-PDFReaderSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDFReaderSample-resources.sh"; sourceTree = "<group>"; };
 		32DA8735F8AC493A4BC950AEDE1CE622 /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
-		343D8E716CE75A0D53E855E9BE726F8F /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
+		343D8E716CE75A0D53E855E9BE726F8F /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
 		34CAF994EE7E36AF10030BDF5DCFF924 /* PDFReaderSDKDiandu.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = PDFReaderSDKDiandu.xcassets; sourceTree = "<group>"; };
 		353DA300D104251C64623F722BE5F76A /* MTMathListIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathListIndex.m; path = iosMath/lib/MTMathListIndex.m; sourceTree = "<group>"; };
 		369D5B24D56F9DB85F629DBFADDA8405 /* PEPNetworkingDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PEPNetworkingDiskCache.m; path = PEPNetworking/Classes/PEPHttpRequest/HttpRequestCache/PEPNetworkingDiskCache.m; sourceTree = "<group>"; };
@@ -593,7 +599,7 @@
 		58A3E8D1C09363878F5F2B4E9F517F87 /* MTMathAtomFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathAtomFactory.m; path = iosMath/lib/MTMathAtomFactory.m; sourceTree = "<group>"; };
 		58A76C6461EFEC01531FF33DBA678F21 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 		58EEBCD1E94E5C055C62CBEF51A309D1 /* MZTimerLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZTimerLabel.m; path = MZTimerLabel/MZTimerLabel.m; sourceTree = "<group>"; };
-		5A119BB4B382CC460A68D60A4EA0A2B4 /* mz_strm_zlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_zlib.c; path = SSZipArchive/minizip/mz_strm_zlib.c; sourceTree = "<group>"; };
+		5A119BB4B382CC460A68D60A4EA0A2B4 /* mz_strm_zlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_zlib.c; path = SSZipArchive/minizip/mz_strm_zlib.c; sourceTree = "<group>"; };
 		5AFF820F72D5955B4A54235D36F1405F /* PEPDownloadUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PEPDownloadUtilities.m; path = PEPNetworking/Classes/PEPDownlaod/PEPDownloader/PEPDownloadUtilities.m; sourceTree = "<group>"; };
 		5D578C4D673DA26CE1751033E521D382 /* SSZipArchive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.release.xcconfig; sourceTree = "<group>"; };
 		5E91AAF3A9265434DEE61D1E658231E4 /* NSBezierPath+addLineToPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+addLineToPoint.h"; path = "iosMath/render/NSBezierPath+addLineToPoint.h"; sourceTree = "<group>"; };
@@ -602,7 +608,7 @@
 		63B60EBBB83BFA940AAB14C6ADBF2B88 /* MTLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLabel.m; path = iosMath/render/MTLabel.m; sourceTree = "<group>"; };
 		650937A31C2AB064DB328AFEDEA9C5E3 /* xits-math.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "xits-math.plist"; path = "fonts/xits-math.plist"; sourceTree = "<group>"; };
 		656777183BE820D56CD4497FF307E811 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
-		664B3B1C6C27D0DB9494AB7BA00561A1 /* mz_zip_rw.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_zip_rw.c; path = SSZipArchive/minizip/mz_zip_rw.c; sourceTree = "<group>"; };
+		664B3B1C6C27D0DB9494AB7BA00561A1 /* mz_zip_rw.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip_rw.c; path = SSZipArchive/minizip/mz_zip_rw.c; sourceTree = "<group>"; };
 		66C4F856E45838CE481C347E393AC41A /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		6893E01FB9C1F56A6996C79BCA609B75 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		68BD59BE2294245F9B8FE9AF84F6D416 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
@@ -610,7 +616,7 @@
 		69D8F730871B835D055A79B1A95C2952 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		6AFE7AB6BD0B725A8EA2EB89E01B192B /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "iosMath/render/UIColor+HexString.h"; sourceTree = "<group>"; };
 		6BB565A725BB9CD3BC1A44919AACE487 /* mz_strm_split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_split.h; path = SSZipArchive/minizip/mz_strm_split.h; sourceTree = "<group>"; };
-		6C71DDCC8358C6410CDC826AA1D24188 /* mathFonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathFonts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C71DDCC8358C6410CDC826AA1D24188 /* iosMath-mathFonts */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "iosMath-mathFonts"; path = mathFonts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D19EAAE8EA4DD762E0D8FE627919C66 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		6D59481C50038E900A6BD891B3608F75 /* MTMathUILabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTMathUILabel.m; path = iosMath/render/MTMathUILabel.m; sourceTree = "<group>"; };
 		6DF1A71E08101BD3BEA9EFA59A3B1022 /* ISEResultXmlParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultXmlParser.m; path = ise/Results/ISEResultXmlParser.m; sourceTree = "<group>"; };
@@ -625,7 +631,7 @@
 		7148950AF6B6A3B3DADFE5F7F395D2C3 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		7243D65C359D6410CD6E004CCE676217 /* MTTypesetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTTypesetter.h; path = iosMath/render/internal/MTTypesetter.h; sourceTree = "<group>"; };
 		724821D12143D4ACBD8655804D4A0FFE /* RKAPPMonitorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKAPPMonitorView.debug.xcconfig; sourceTree = "<group>"; };
-		7249150B45BDC8790CEEEC9A2D77BB79 /* mz_crypt_apple.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_crypt_apple.c; path = SSZipArchive/minizip/mz_crypt_apple.c; sourceTree = "<group>"; };
+		7249150B45BDC8790CEEEC9A2D77BB79 /* mz_crypt_apple.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt_apple.c; path = SSZipArchive/minizip/mz_crypt_apple.c; sourceTree = "<group>"; };
 		72858A3A11421DAFB72B000B67989D50 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
 		7372FA4208045CA4FC8BA75BEB1AD9EA /* PEPDownloadOperationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PEPDownloadOperationProtocol.h; path = PEPNetworking/Classes/PEPDownlaod/PEPDownloader/PEPDownloadOperationProtocol.h; sourceTree = "<group>"; };
 		73DD5E94DE1EB260115F42EDFEDC521F /* IFlyVerifierUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFlyVerifierUtil.h; path = iflyMSC.framework/Headers/IFlyVerifierUtil.h; sourceTree = "<group>"; };
@@ -635,7 +641,7 @@
 		76DC034F11D05636BD12C34AC6FE8B9B /* ISEResultWord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultWord.h; path = ise/Results/ISEResultWord.h; sourceTree = "<group>"; };
 		76E18260F1D569906472AAA985DA9D9E /* IFlySpeechEvaluatorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFlySpeechEvaluatorDelegate.h; path = iflyMSC.framework/Headers/IFlySpeechEvaluatorDelegate.h; sourceTree = "<group>"; };
 		7785674B89239776D0494792901E3C2F /* mz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz.h; path = SSZipArchive/minizip/mz.h; sourceTree = "<group>"; };
-		7792D449781662D72D49ECDAECCD266B /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_pkcrypt.c; path = SSZipArchive/minizip/mz_strm_pkcrypt.c; sourceTree = "<group>"; };
+		7792D449781662D72D49ECDAECCD266B /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_pkcrypt.c; path = SSZipArchive/minizip/mz_strm_pkcrypt.c; sourceTree = "<group>"; };
 		7815A9FF9470650EFE5DF0344D53409F /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		792F5E5A5BCA666DDA0817F70CD02568 /* MTMathList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathList.h; path = iosMath/lib/MTMathList.h; sourceTree = "<group>"; };
 		7AA3FFA887FEB70D2F2EE0AFCE33FE6F /* IFlyISVDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFlyISVDelegate.h; path = iflyMSC.framework/Headers/IFlyISVDelegate.h; sourceTree = "<group>"; };
@@ -669,10 +675,10 @@
 		8EAF7210D96A8A55AC04707C6F5EEDC5 /* ISEResultReadSyllable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultReadSyllable.h; path = ise/Results/ISEResultReadSyllable.h; sourceTree = "<group>"; };
 		8F2F5A8EB7A17A28DA9C98D772DD4B36 /* MTMathUILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTMathUILabel.h; path = iosMath/render/MTMathUILabel.h; sourceTree = "<group>"; };
 		8FA989CF099D4BBB6BA5DFA46E8B22A4 /* IFlyVoiceWakeuper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFlyVoiceWakeuper.h; path = iflyMSC.framework/Headers/IFlyVoiceWakeuper.h; sourceTree = "<group>"; };
-		907D0E1B80992DA4001828B5BF46809D /* mz_os.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_os.c; path = SSZipArchive/minizip/mz_os.c; sourceTree = "<group>"; };
+		907D0E1B80992DA4001828B5BF46809D /* mz_os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os.c; path = SSZipArchive/minizip/mz_os.c; sourceTree = "<group>"; };
 		91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SSZipArchive; path = libSSZipArchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E71E16EF0E6D8A4E7C815F7EA8011D /* ISEResultXmlParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultXmlParser.h; path = ise/Results/ISEResultXmlParser.h; sourceTree = "<group>"; };
-		930A9168CFF7658BED9DAC6581B9C04A /* mz_strm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm.c; path = SSZipArchive/minizip/mz_strm.c; sourceTree = "<group>"; };
+		930A9168CFF7658BED9DAC6581B9C04A /* mz_strm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm.c; path = SSZipArchive/minizip/mz_strm.c; sourceTree = "<group>"; };
 		9388D57F983966950205F2EBBA327763 /* ISEParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEParams.h; path = ise/ISEParams.h; sourceTree = "<group>"; };
 		93CDC4F92A723A39A05160CEE97B4F3A /* ISEResultReadSentence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultReadSentence.m; path = ise/Results/ISEResultReadSentence.m; sourceTree = "<group>"; };
 		93DBD43EE98D2DBE2E6241C20D3E4164 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -689,11 +695,11 @@
 		9C07823E4355E4F53A846B0DABE1C1CB /* PcmPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PcmPlayer.m; path = pcm/PcmPlayer.m; sourceTree = "<group>"; };
 		9C4C9BD794090635DF056D2317736945 /* RKAPPMonitorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RKAPPMonitorView-dummy.m"; sourceTree = "<group>"; };
 		9D254A9A6911B59DCE9C1C954C0F122B /* mz_zip_rw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip_rw.h; path = SSZipArchive/minizip/mz_zip_rw.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB4D295D533FE46190BD39E91895020 /* PEPNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PEPNetworking-dummy.m"; sourceTree = "<group>"; };
 		9EAF7C33113F7103A6112759CD3CA174 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		9FBA2CA09BAE8D05398E59DD56E777DE /* mz_crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_crypt.c; path = SSZipArchive/minizip/mz_crypt.c; sourceTree = "<group>"; };
-		A11ED422ECA1C327C43747C1762A43F9 /* mz_compat.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_compat.c; path = SSZipArchive/minizip/mz_compat.c; sourceTree = "<group>"; };
+		9FBA2CA09BAE8D05398E59DD56E777DE /* mz_crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt.c; path = SSZipArchive/minizip/mz_crypt.c; sourceTree = "<group>"; };
+		A11ED422ECA1C327C43747C1762A43F9 /* mz_compat.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_compat.c; path = SSZipArchive/minizip/mz_compat.c; sourceTree = "<group>"; };
 		A17E1E990832C5B9CBAAC4A678A252ED /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		A2139B3B8CE9D57B4C2B770D7F1ADF70 /* ISEResultFinal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISEResultFinal.h; path = ise/Results/ISEResultFinal.h; sourceTree = "<group>"; };
 		A2557600C793733CBE5DA4CA2EC137BB /* iosMath */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = iosMath; path = libiosMath.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -720,7 +726,7 @@
 		B6347645ACDC0A1C95F81D00391A5CA2 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		B6C9634CF157BC1AF4C91B95E321BB68 /* MTFontMathTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTFontMathTable.m; path = iosMath/render/internal/MTFontMathTable.m; sourceTree = "<group>"; };
 		B781E619871CF368F2233D1F484F96D4 /* ISEResultTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultTools.m; path = ise/Results/ISEResultTools.m; sourceTree = "<group>"; };
-		B80BFA09A8CD89BAB3314126052EC223 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
+		B80BFA09A8CD89BAB3314126052EC223 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
 		B8B51E37A5C3286E8BBADCD1EE9D3684 /* NSView+backgroundColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSView+backgroundColor.m"; path = "iosMath/render/NSView+backgroundColor.m"; sourceTree = "<group>"; };
 		BA485C57E1D617E34DFCF81E474F4BAF /* RKAPPMonitorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKAPPMonitorView.release.xcconfig; sourceTree = "<group>"; };
 		BAAB40426DDDFEC63CCCBB28937CCD17 /* ISEResultReadWord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISEResultReadWord.m; path = ise/Results/ISEResultReadWord.m; sourceTree = "<group>"; };
@@ -762,7 +768,7 @@
 		D7AF04FD7115E310DB2A89F465BAD640 /* MTUnicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTUnicode.h; path = iosMath/lib/MTUnicode.h; sourceTree = "<group>"; };
 		D927BC297E5AC5A79D9F7337FD36A72E /* MTFontMathTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTFontMathTable.h; path = iosMath/render/internal/MTFontMathTable.h; sourceTree = "<group>"; };
 		DA231BE4953105116B9E23550C2515B7 /* IFlySetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFlySetting.h; path = iflyMSC.framework/Headers/IFlySetting.h; sourceTree = "<group>"; };
-		DBC59F0044A24EA0924CE9BCC4EB2088 /* latinmodern-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "latinmodern-math.otf"; path = "fonts/latinmodern-math.otf"; sourceTree = "<group>"; };
+		DBC59F0044A24EA0924CE9BCC4EB2088 /* latinmodern-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "latinmodern-math.otf"; path = "fonts/latinmodern-math.otf"; sourceTree = "<group>"; };
 		DDF6EB7C95020063F23D94771E6D4061 /* latinmodern-math.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "latinmodern-math.plist"; path = "fonts/latinmodern-math.plist"; sourceTree = "<group>"; };
 		E02FA5040F6E3FBFE7FD538149B2BDE8 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		E2CD802441E404F9AB44BF91E00CDC43 /* PEPHttpRequestAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PEPHttpRequestAgent.h; path = PEPNetworking/Classes/PEPHttpRequest/PEPHttpRequestAgent.h; sourceTree = "<group>"; };
@@ -775,11 +781,11 @@
 		E699DB907C4914180713060562E13652 /* IFlySpeechEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFlySpeechEvent.h; path = iflyMSC.framework/Headers/IFlySpeechEvent.h; sourceTree = "<group>"; };
 		E6E01B603E1609E16CCBBC23CCCADE04 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
 		E7690ABD2CDD49552BEB7513B088CDCB /* MZTimerLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZTimerLabel.debug.xcconfig; sourceTree = "<group>"; };
-		E8273A5DD43E56F4F8998D53BEF50FF8 /* mz_strm_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_buf.c; path = SSZipArchive/minizip/mz_strm_buf.c; sourceTree = "<group>"; };
+		E8273A5DD43E56F4F8998D53BEF50FF8 /* mz_strm_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_buf.c; path = SSZipArchive/minizip/mz_strm_buf.c; sourceTree = "<group>"; };
 		E90D5F744B04AB7F828EAB22278DC8CD /* PEPiFlyMSC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PEPiFlyMSC.release.xcconfig; sourceTree = "<group>"; };
 		EA0AB24C5689E44D4393BBF7CEE6EBE4 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		EB39F702E5493E21F1FD1D2712AA56AD /* IFlyIdentityVerifierDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFlyIdentityVerifierDelegate.h; path = iflyMSC.framework/Headers/IFlyIdentityVerifierDelegate.h; sourceTree = "<group>"; };
-		EB5DA54D66654B8AB93F1C93786D2818 /* mz_strm_split.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_split.c; path = SSZipArchive/minizip/mz_strm_split.c; sourceTree = "<group>"; };
+		EB5DA54D66654B8AB93F1C93786D2818 /* mz_strm_split.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_split.c; path = SSZipArchive/minizip/mz_strm_split.c; sourceTree = "<group>"; };
 		EC40263D8A1E6D2713FC6CB8F092F6DA /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		EC75FF42420C269A0C4E322D42E0F133 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		ECCCB10F2AA6DC8B6FB8CD7C547317BE /* PEPHttpRequestAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PEPHttpRequestAgent.m; path = PEPNetworking/Classes/PEPHttpRequest/PEPHttpRequestAgent.m; sourceTree = "<group>"; };
@@ -791,7 +797,7 @@
 		EFDE1BE1E0F4A37E7CFFC2640A4733DD /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		EFF78B4AEEF7267F5194E511F1045B38 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		F5E79DC96141963A4A5DCF12EE5DED39 /* mz_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_crypt.h; path = SSZipArchive/minizip/mz_crypt.h; sourceTree = "<group>"; };
-		F5ECD0585108F750905287098448477F /* xits-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "xits-math.otf"; path = "fonts/xits-math.otf"; sourceTree = "<group>"; };
+		F5ECD0585108F750905287098448477F /* xits-math.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = "xits-math.otf"; path = "fonts/xits-math.otf"; sourceTree = "<group>"; };
 		F66D6968E988C4693F363DC86D1C0869 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
 		F740650BAD747EC8CCD878500646DE2A /* mz_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_os.h; path = SSZipArchive/minizip/mz_os.h; sourceTree = "<group>"; };
 		F781549651286AC18204284246032DE9 /* YYModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.release.xcconfig; sourceTree = "<group>"; };
@@ -803,13 +809,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		06EEC58441F922036A936ECD7ED77738 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1B8D60AE4171952884C5658B60841B7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -830,14 +829,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5EF2F68B3F5552AC8E5A93BBE46E2494 /* Frameworks */ = {
+		4C0F1B5E81CC957CD2DEDF5482F5F67C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F2631D8F65FA2EE41A2D3FBACC5F030 /* Frameworks */ = {
+		5EF2F68B3F5552AC8E5A93BBE46E2494 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -865,14 +864,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83EB70F8E3094FCDE679194BB3BFF744 /* Frameworks */ = {
+		88603FA4E61A9DD364D5F055390DE8D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88603FA4E61A9DD364D5F055390DE8D4 /* Frameworks */ = {
+		8AD2FB04F4750594FC419ED3A06A9A31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -886,7 +885,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAB520140B701E78651D58B56FF2E8DF /* Frameworks */ = {
+		9C33AE5A292D32B747F946CA4D238E96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -894,6 +893,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F9FD0AFB24E7CAE03A27D9167DD09E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC9F84F890C421A6752E5F3FA3756F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -936,6 +942,7 @@
 				79112EC60B4937D3452E4C0AA6662956 /* Resources */,
 				C1369C64F954A11172C8105A15559CC3 /* Support Files */,
 			);
+			name = SAMKeychain;
 			path = SAMKeychain;
 			sourceTree = "<group>";
 		};
@@ -998,6 +1005,7 @@
 				5223F3655666A03C6B306BBFAB84ADAD /* PEPUploadFormModel.m */,
 				9F5F040A86315BFE407F0C4DB54AADF5 /* Support Files */,
 			);
+			name = PEPNetworking;
 			path = PEPNetworking;
 			sourceTree = "<group>";
 		};
@@ -1083,6 +1091,7 @@
 				7DA28F71B841AB66868ADAD5AF3B8BB8 /* ZipArchive.h */,
 				F647309F7624F53FC6EBC5C51E57FE3F /* Support Files */,
 			);
+			name = SSZipArchive;
 			path = SSZipArchive;
 			sourceTree = "<group>";
 		};
@@ -1107,7 +1116,7 @@
 				9808BF74538141204E4EB5B49809FE77 /* Aspects */,
 				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */,
 				A2557600C793733CBE5DA4CA2EC137BB /* iosMath */,
-				6C71DDCC8358C6410CDC826AA1D24188 /* mathFonts.bundle */,
+				6C71DDCC8358C6410CDC826AA1D24188 /* iosMath-mathFonts */,
 				1FFED36A657123030ABB700256D73F15 /* Masonry */,
 				5715B9670A84D49CAEE81B6B9B4C8686 /* MZTimerLabel */,
 				1B6A47B52D493BBE7697D07888775A9A /* PEPiFlyMSC */,
@@ -1128,6 +1137,7 @@
 				EA0AB24C5689E44D4393BBF7CEE6EBE4 /* Aspects.m */,
 				A0972DAED80E3B0AEE20F263DE111948 /* Support Files */,
 			);
+			name = Aspects;
 			path = Aspects;
 			sourceTree = "<group>";
 		};
@@ -1165,6 +1175,7 @@
 				24CFDCD649BDE2E911F6130C61B60BEB /* standard */,
 				71C0A7906972BEF0CB2AD2F643CD4ED4 /* Support Files */,
 			);
+			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -1175,6 +1186,7 @@
 				58EEBCD1E94E5C055C62CBEF51A309D1 /* MZTimerLabel.m */,
 				A4D20A33C988C436089357434A266061 /* Support Files */,
 			);
+			name = MZTimerLabel;
 			path = MZTimerLabel;
 			sourceTree = "<group>";
 		};
@@ -1185,6 +1197,7 @@
 				CF3DBED61A5F4A7DCAC7F3737F8DDDF7 /* RKAPPMonitorView.m */,
 				15B83B2E670CA4CE31665C308753BA62 /* Support Files */,
 			);
+			name = RKAPPMonitorView;
 			path = RKAPPMonitorView;
 			sourceTree = "<group>";
 		};
@@ -1263,6 +1276,7 @@
 				1BE9EA244B35FE40D746E4029A0ED0B8 /* ViewController+MASAdditions.m */,
 				F3EE9602E52F87B9CD86C9F291ECA7B5 /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -1299,6 +1313,7 @@
 				89D148042AD20CF441127DC96E711856 /* Support Files */,
 				283F96256E226A3EB11B998227FF768E /* UIKit */,
 			);
+			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1403,6 +1418,7 @@
 				E6E01B603E1609E16CCBBC23CCCADE04 /* YYModel.h */,
 				B88A189A7EBAC3A1251BE7D6D9EFF00B /* Support Files */,
 			);
+			name = YYModel;
 			path = YYModel;
 			sourceTree = "<group>";
 		};
@@ -1413,6 +1429,7 @@
 				4A4CD6F3F6EDE5FEE967E5847A40D5E2 /* Resources */,
 				88E31C6DAC8F4670F20F326B773FC141 /* Support Files */,
 			);
+			name = PEPReaderSDK;
 			path = PEPReaderSDK;
 			sourceTree = "<group>";
 		};
@@ -1433,6 +1450,7 @@
 				6F111646E25AB82CC0964662F7345A68 /* Frameworks */,
 				08377C34ADF9E0E458A9BF8F73898160 /* Support Files */,
 			);
+			name = PEPBigData;
 			path = PEPBigData;
 			sourceTree = "<group>";
 		};
@@ -1516,6 +1534,7 @@
 				5CBF1E5AE036BC1F325B6949899AE0B9 /* Frameworks */,
 				5826653D4D7C1B912AF71561D8E7C61D /* Support Files */,
 			);
+			name = PEPiFlyMSC;
 			path = PEPiFlyMSC;
 			sourceTree = "<group>";
 		};
@@ -1573,6 +1592,7 @@
 				14735CA50581667B053FEB452C6DE63C /* Resources */,
 				090168021446E1145FB790C5FF7F0561 /* Support Files */,
 			);
+			name = iosMath;
 			path = iosMath;
 			sourceTree = "<group>";
 		};
@@ -1614,16 +1634,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0420FE8EA4FC2FA7FE52153BF4B62B2E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E534EF42C7FD38A1520FB618D958D063 /* NSObject+YYModel.h in Headers */,
-				D19A3F6210316EFFB4CBF77E2A0A43B0 /* YYClassInfo.h in Headers */,
-				2B8F836C61E69BE3CBEBC095B853BA1F /* YYModel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		09CAAC355578021459C41D98EC1AC5D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1749,6 +1759,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72B6C4BC6AD2A07D08313533D9B569B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9E93475B928B6524D7D8AB1D752508 /* SAMKeychain.h in Headers */,
+				71C439FB8C05F7359DC8AFD5A2F4C893 /* SAMKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		75E8F5E23943A9ED31B73A72101E7C63 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1807,6 +1826,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B4B3E277D03E317BAD847F88D51A99D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B2E246A9DE5FDF561D17D182DD03E0 /* IosMath.h in Headers */,
+				A483499E420D7AD35BC6463AB5F9B9F7 /* MTConfig.h in Headers */,
+				634805D82A898033489DD5FD7F85E3FB /* MTFont.h in Headers */,
+				F367CE5E9ADED22B8BE3017974228E2E /* MTFont+Internal.h in Headers */,
+				395F771A11705B7D6878A9B6A620E142 /* MTFontManager.h in Headers */,
+				6272509AD78621F2605991471268E0B9 /* MTFontMathTable.h in Headers */,
+				D39F60972410ADE96F0A3EC3EFFE7339 /* MTLabel.h in Headers */,
+				6ECE437725860C3BB6E2C5AC910AA068 /* MTMathAtomFactory.h in Headers */,
+				33C115168A3E77D98CCCBE709093BDEE /* MTMathList.h in Headers */,
+				571E4C33773DB40436FECB989B0E77D1 /* MTMathListBuilder.h in Headers */,
+				E2763BE139986FA8BE940E2E5B5E59FC /* MTMathListDisplay.h in Headers */,
+				BB02E61323CAAB085C618A8DE3C35AF6 /* MTMathListDisplayInternal.h in Headers */,
+				5C31571B491C3EF63C7AD1256AF283F0 /* MTMathListIndex.h in Headers */,
+				C6A6407EA9CC82BFADB800010C6B2E75 /* MTMathUILabel.h in Headers */,
+				8B6CF92180A9311006D875BDEE1BF144 /* MTTypesetter.h in Headers */,
+				3473F62B8358F1529A0ACDB5AB147743 /* MTUnicode.h in Headers */,
+				73D293A312991775DC2054B1CB227A14 /* NSBezierPath+addLineToPoint.h in Headers */,
+				C59153A98E3FED0E8D084CCEC289B1C8 /* NSColor+HexString.h in Headers */,
+				72E3518FF7A3EA474517F2438CF6D798 /* NSView+backgroundColor.h in Headers */,
+				24B7BF4BDE25213801C667C1E0AFF9F3 /* UIColor+HexString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C31C52720201C58D71DAAE764102CD22 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1815,39 +1861,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2FE61B890266CEB654C47533B4A7468 /* Headers */ = {
+		D620EB247A8CFFEDEA5BA41049141326 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D49C35D1FA743324AD1B967F9C3333 /* IosMath.h in Headers */,
-				76665362A09358412C1F50B0236A32DC /* MTConfig.h in Headers */,
-				D33D15000F849D8ADB22230738A3BE10 /* MTFont.h in Headers */,
-				4A8E4E16D4FC41CA2721AB39C5EF5491 /* MTFont+Internal.h in Headers */,
-				39129B4387DB846A0B7562B95AA00E18 /* MTFontManager.h in Headers */,
-				9D75471785D551C710E4A4773A6B2E0A /* MTFontMathTable.h in Headers */,
-				D37BD0A2A55816DE627A28D73230DAC2 /* MTLabel.h in Headers */,
-				E54AD2814AE8F9903E75563FE72AFC7A /* MTMathAtomFactory.h in Headers */,
-				1FB6B71CF1FA8CE29D2719A55AC5053F /* MTMathList.h in Headers */,
-				B3E1E994BB9C7B92CA8DAD17390D0039 /* MTMathListBuilder.h in Headers */,
-				886BBBC4F1B8E2FD01A36D1F8ACBA3AA /* MTMathListDisplay.h in Headers */,
-				2D09E8AD5E89EC362BCCBAD2E6043B8C /* MTMathListDisplayInternal.h in Headers */,
-				C86A1EFF549E67D1F2700EAC5FF7538A /* MTMathListIndex.h in Headers */,
-				75BDF23A9A4ED4F1C48B3D264C92E4D0 /* MTMathUILabel.h in Headers */,
-				E9C34423830FB6D58EC685176DD9EED2 /* MTTypesetter.h in Headers */,
-				C5FEBA210EEF8EBDFBB9D4C9107BB2E2 /* MTUnicode.h in Headers */,
-				09F0D34103C923D51A4C52FA597C4C15 /* NSBezierPath+addLineToPoint.h in Headers */,
-				A2D7C08D4ACFAE8488B90C8F0B67F52B /* NSColor+HexString.h in Headers */,
-				A171F02074572EED78888B15096F7709 /* NSView+backgroundColor.h in Headers */,
-				A288E84494010F53D9F46D8D996AE305 /* UIColor+HexString.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9FB202E984D41D0E4361954D78D520A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0AA903E0D292B2DFA2CD0DE2B8CFA0B1 /* SAMKeychain.h in Headers */,
-				63A7FD4017AD89B503A5FA810054CD5E /* SAMKeychainQuery.h in Headers */,
+				FE97D300A7E492B3B7535D65DCC2F391 /* NSObject+YYModel.h in Headers */,
+				62453D213BA91B07C8C823420AF6E902 /* YYClassInfo.h in Headers */,
+				BE832260CB19D7772BDB9E1361975F2D /* YYModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1890,11 +1910,11 @@
 		};
 		5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38CBB89D5898E59DBD70B3C5AC18AB3B /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
+			buildConfigurationList = 4A009C46B812B983E66E6F9A99AA008D /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
 			buildPhases = (
-				D9FB202E984D41D0E4361954D78D520A /* Headers */,
-				F2C60F331DB3F97D517B8D3367C10284 /* Sources */,
-				1B8D60AE4171952884C5658B60841B7C /* Frameworks */,
+				72B6C4BC6AD2A07D08313533D9B569B6 /* Headers */,
+				D37B126893FEC2BF6E2E58D22DAAB6CD /* Sources */,
+				FBC9F84F890C421A6752E5F3FA3756F2 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1924,16 +1944,16 @@
 		};
 		5D02780FC11341C3D40A209D0ED04EE0 /* iosMath */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76D5FFFE14C7162AE73F05FD079E28E0 /* Build configuration list for PBXNativeTarget "iosMath" */;
+			buildConfigurationList = D5D5DCC391B43E74C01467C4EB3C008A /* Build configuration list for PBXNativeTarget "iosMath" */;
 			buildPhases = (
-				D2FE61B890266CEB654C47533B4A7468 /* Headers */,
-				890F3756228BF40CF9ED1470A08A5957 /* Sources */,
-				5F2631D8F65FA2EE41A2D3FBACC5F030 /* Frameworks */,
+				B4B3E277D03E317BAD847F88D51A99D6 /* Headers */,
+				3D8482CA95BCBA682C6543CFFA344A98 /* Sources */,
+				9C33AE5A292D32B747F946CA4D238E96 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DC68AF8B3EC8D46328A68916C1C902DE /* PBXTargetDependency */,
+				62ED7008B08221C2C4E83D7BFAB0882B /* PBXTargetDependency */,
 			);
 			name = iosMath;
 			productName = iosMath;
@@ -1959,11 +1979,11 @@
 		};
 		84B44807A12996D487A4A591A481D6A0 /* YYModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29B078C9F78528A5E81B705AA3D0CEC7 /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildConfigurationList = C1FACED3E43C7CCCE54F13DF3669321A /* Build configuration list for PBXNativeTarget "YYModel" */;
 			buildPhases = (
-				0420FE8EA4FC2FA7FE52153BF4B62B2E /* Headers */,
-				F87DA339BA873B8A6ADA2D40B931A4EA /* Sources */,
-				83EB70F8E3094FCDE679194BB3BFF744 /* Frameworks */,
+				D620EB247A8CFFEDEA5BA41049141326 /* Headers */,
+				96ECD8B010CF88630AB56C5B165ED8E7 /* Sources */,
+				4C0F1B5E81CC957CD2DEDF5482F5F67C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2076,11 +2096,11 @@
 		};
 		DF5F2C4737E902D72711853B3875FBC5 /* iosMath-mathFonts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A6643C094DB3755C0639C747AB8ABA0 /* Build configuration list for PBXNativeTarget "iosMath-mathFonts" */;
+			buildConfigurationList = A3427C711684D831CEF6D0AF0BF486B5 /* Build configuration list for PBXNativeTarget "iosMath-mathFonts" */;
 			buildPhases = (
-				12E384F62F31015C02C1900ACC4C5816 /* Sources */,
-				BAB520140B701E78651D58B56FF2E8DF /* Frameworks */,
-				97BEA790236F2C1D1430C95168E00548 /* Resources */,
+				2CCA5DE24E46519F77C616D51CB0DE0B /* Sources */,
+				8AD2FB04F4750594FC419ED3A06A9A31 /* Frameworks */,
+				F2E1D51EF6CAF9351716E830E92123A2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -2088,7 +2108,7 @@
 			);
 			name = "iosMath-mathFonts";
 			productName = mathFonts;
-			productReference = 6C71DDCC8358C6410CDC826AA1D24188 /* mathFonts.bundle */;
+			productReference = 6C71DDCC8358C6410CDC826AA1D24188 /* iosMath-mathFonts */;
 			productType = "com.apple.product-type.bundle";
 		};
 		F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */ = {
@@ -2114,8 +2134,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -2151,16 +2171,16 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		97BEA790236F2C1D1430C95168E00548 /* Resources */ = {
+		F2E1D51EF6CAF9351716E830E92123A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC8E95B67D92A2D45ADB889A0408A71 /* latinmodern-math.otf in Resources */,
-				6A791855D4BC8E8E4BDC9DA278A37E17 /* latinmodern-math.plist in Resources */,
-				A7F081D61231B2CD5012A807348F34D7 /* texgyretermes-math.otf in Resources */,
-				243974D35CA2FB29E2B3295EA6CC23F5 /* texgyretermes-math.plist in Resources */,
-				403CE0FAAAC1D4D623895737A7EE049D /* xits-math.otf in Resources */,
-				2707F87DB6E21A0A821860F6E1B94FCE /* xits-math.plist in Resources */,
+				CEFFD514B5B01C5CBD40C7A34E09EC4A /* latinmodern-math.otf in Resources */,
+				2012E5F08C87232AFA299F08F4F9E5FB /* latinmodern-math.plist in Resources */,
+				2B42732DDB4DA3B63541C683CC17B7E9 /* texgyretermes-math.otf in Resources */,
+				1F4C6CB9F24010BDB22C470FA16A9302 /* texgyretermes-math.plist in Resources */,
+				1D8E445F6ED189A6CC9DCCE4250C856F /* xits-math.otf in Resources */,
+				660CA7F4A94A95B838289478B53CD468 /* xits-math.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2201,18 +2221,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12E384F62F31015C02C1900ACC4C5816 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		28447A8045677785CE7CAF1BD51A0BA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B9105538C24CE170B6266E2314AD6E9E /* Pods-PDFReaderSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCA5DE24E46519F77C616D51CB0DE0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2258,6 +2278,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D8482CA95BCBA682C6543CFFA344A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6EBA3B9F27474C3F95A43A9CBDE7FA /* iosMath-dummy.m in Sources */,
+				7F0D5AA3265A81756C8D15DE62E3F608 /* MTFont.m in Sources */,
+				C59E95864976B456878B9A890A377108 /* MTFontManager.m in Sources */,
+				8EB861E4B403E84B58FF3D0FF3EA4304 /* MTFontMathTable.m in Sources */,
+				66E13DB8C86784F0633D454487BC56AF /* MTLabel.m in Sources */,
+				CE3D8D2ACE76A59D572042B5055CD835 /* MTMathAtomFactory.m in Sources */,
+				B4CC4B6725211F4BB2A09440573648B1 /* MTMathList.m in Sources */,
+				3F0598A667540B0BAE4924E486A72EE7 /* MTMathListBuilder.m in Sources */,
+				99593EB1178BABE3BDB2FD6A4A81A63F /* MTMathListDisplay.m in Sources */,
+				91FE4D5003339E7C9E40B95A2D89EC68 /* MTMathListIndex.m in Sources */,
+				BFA4DA18C6F43559B7B4246FCD3D3C45 /* MTMathUILabel.m in Sources */,
+				7E64D415C401648B991941E9F8AD57DE /* MTTypesetter.m in Sources */,
+				2710D61762794E592C07FD2C9234DD38 /* MTUnicode.m in Sources */,
+				3ABD0237EAD200C6C0C63296BB70E253 /* NSBezierPath+addLineToPoint.m in Sources */,
+				E5BD51BAEFB2650A7559ADDAD809B5FD /* NSColor+HexString.m in Sources */,
+				DE20848103BF4DBDBF305D9724B6D34E /* NSView+backgroundColor.m in Sources */,
+				7F8A41AA4B2E94B20E517A53AA8FCE68 /* UIColor+HexString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47008DAA8E09590A1B8A83A1E4935975 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2299,27 +2343,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		890F3756228BF40CF9ED1470A08A5957 /* Sources */ = {
+		96ECD8B010CF88630AB56C5B165ED8E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5B6158C9AC13291BD52201A5D77FBB9 /* iosMath-dummy.m in Sources */,
-				674EF84ACD260889AA34FF9D396373A6 /* MTFont.m in Sources */,
-				F3109FF767F33630E65C256980A87CD0 /* MTFontManager.m in Sources */,
-				C491539EBA917AF00B6F058F221CB8DA /* MTFontMathTable.m in Sources */,
-				FABBAD59EFB5B1D0605D13EBA75A7280 /* MTLabel.m in Sources */,
-				99BF356609BCA20B8B9AE9FA6BB89729 /* MTMathAtomFactory.m in Sources */,
-				50A4B4561D0F8D6AFE9F064EF8F46E78 /* MTMathList.m in Sources */,
-				2C560826F5D8883FE1B3C294473E72EB /* MTMathListBuilder.m in Sources */,
-				7E0185744A45A22AF3F30761FEB24299 /* MTMathListDisplay.m in Sources */,
-				288EB68A583F01CDEDAAD55BBFC0B7AA /* MTMathListIndex.m in Sources */,
-				CC2CF7F45BC9D0C0447E19B40B7C07E9 /* MTMathUILabel.m in Sources */,
-				68E2044871F46DA3247A9ED703334E58 /* MTTypesetter.m in Sources */,
-				3ABE965DECD45CD5798FCDEADC73488C /* MTUnicode.m in Sources */,
-				D52C7607E024BBA5F8DFCCBA998E36E7 /* NSBezierPath+addLineToPoint.m in Sources */,
-				B40D6A06C21606B13B058344F40C3EBF /* NSColor+HexString.m in Sources */,
-				D8EA17A50812204500ED3AF93D4ED088 /* NSView+backgroundColor.m in Sources */,
-				CDADEBFC09B5E003DC9D927E02A48480 /* UIColor+HexString.m in Sources */,
+				FACFD7AD88149C7716E786094170B8D5 /* NSObject+YYModel.m in Sources */,
+				4411CF4F304C6EF132AF52C73F698541 /* YYClassInfo.m in Sources */,
+				458CD124B392175CA2CCA74D3EE791E1 /* YYModel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2329,6 +2359,16 @@
 			files = (
 				DE32004038AE07612E90FDA105C76847 /* MZTimerLabel.m in Sources */,
 				7E5E183DE1744A129247BD410D89130A /* MZTimerLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37B126893FEC2BF6E2E58D22DAAB6CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C8FD610C693426267F0288C64953E3 /* SAMKeychain.m in Sources */,
+				C80FE90BFC0229E106392E4BC2A9924D /* SAMKeychain-dummy.m in Sources */,
+				BB4CAE6BA49E0BB59C1751564642B89E /* SAMKeychainQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2353,26 +2393,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2C60F331DB3F97D517B8D3367C10284 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CB142BF47F72F3A687B428924EF01E4 /* SAMKeychain.m in Sources */,
-				ACFF703878ED811415E82ADA54E6455D /* SAMKeychain-dummy.m in Sources */,
-				2BECD1B67690F40959688F7B608F08C5 /* SAMKeychainQuery.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F87DA339BA873B8A6ADA2D40B931A4EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB144E1F09B26D50B59CDB9243012A87 /* NSObject+YYModel.m in Sources */,
-				6F3FF69B67A0081F2AB99C4ED17B23B6 /* YYClassInfo.m in Sources */,
-				FEDFA7DA50694929D240C946B809E78A /* YYModel-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2388,11 +2408,11 @@
 			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
 			targetProxy = 2F7486B8D5B9BA6F88709D052EFBAF87 /* PBXContainerItemProxy */;
 		};
-		4BC829936E933B49D9FB604E2DA0E90D /* PBXTargetDependency */ = {
+		32989D54FECA5DF70C158926F9F3D355 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SAMKeychain;
-			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
-			targetProxy = D54EEB2D6A8DC6A09F440E6CCF6DB6DB /* PBXContainerItemProxy */;
+			name = PEPBigData;
+			target = CDFFD9E4EDE0EEC0D6737A0D45E96545 /* PEPBigData */;
+			targetProxy = F67F2D3203F7613EFBCEBDD946566E9E /* PBXContainerItemProxy */;
 		};
 		593DC916C33CAA33A26A277EDE7336D9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2400,11 +2420,35 @@
 			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
 			targetProxy = 341DC9F16E3398FAB35A308AB64812D9 /* PBXContainerItemProxy */;
 		};
+		5C1DCE62F8311CE31055AE71379683CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = 0D38D9BE09D9CA1F5102860AF55ACB27 /* PBXContainerItemProxy */;
+		};
+		5D35395D9811D8ED9E19EE0B67B47A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
+			targetProxy = 68C9B2AF3BD4EED60DCFA35677B9BC0A /* PBXContainerItemProxy */;
+		};
+		62ED7008B08221C2C4E83D7BFAB0882B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iosMath-mathFonts";
+			target = DF5F2C4737E902D72711853B3875FBC5 /* iosMath-mathFonts */;
+			targetProxy = 8B5192167153F64D2BE9E943BAC71267 /* PBXContainerItemProxy */;
+		};
 		63D37E82DD79CAE98307F94F6222298B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SSZipArchive;
 			target = F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */;
 			targetProxy = 57CC0AD6428B05CDF8F8DA8A46849CD6 /* PBXContainerItemProxy */;
+		};
+		6AD8B7FB54888479B88AA3F85D823104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZTimerLabel;
+			target = 8136C2C6F8BD7044AAE2D1C409E644A4 /* MZTimerLabel */;
+			targetProxy = 64B258F87594879E25C540DE6C0F42AA /* PBXContainerItemProxy */;
 		};
 		6ED784BC6F54142C620808C0710C3116 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2412,17 +2456,11 @@
 			target = C6539905C4D50932B36244650B93C79B /* Aspects */;
 			targetProxy = F5119E9CE44BB695AA985CA40FB9970E /* PBXContainerItemProxy */;
 		};
-		7B03815606475C2367F829D82EFE6917 /* PBXTargetDependency */ = {
+		83A3AA83F6929BD0D04206E389337FEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = YYModel;
-			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
-			targetProxy = A1CEDAA1DAE5A68B04A7F015750EEFCF /* PBXContainerItemProxy */;
-		};
-		7D62BC2B63B760C9F558D7D79D4BD82A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PEPNetworking;
-			target = BD4C0A2F1C60C185A3802EDFD0E74ADA /* PEPNetworking */;
-			targetProxy = 9EF74D6EA04BA3EC3C1B3620790CFFFC /* PBXContainerItemProxy */;
+			name = iosMath;
+			target = 5D02780FC11341C3D40A209D0ED04EE0 /* iosMath */;
+			targetProxy = CFF08B5FDCEA85F93A30509E373DD9AF /* PBXContainerItemProxy */;
 		};
 		888EEB588571DB27506E1D5A2F592E70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2460,29 +2498,17 @@
 			target = 028D280B5FB8D27ED8A5939B6D2C7D3B /* RKAPPMonitorView */;
 			targetProxy = 46165DD0E7EE4956AA850383F941A4F4 /* PBXContainerItemProxy */;
 		};
-		C58D7AADBB371770D1C5BD1FE0054633 /* PBXTargetDependency */ = {
+		C9A196C540DAF954CC5050257128CCF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = iosMath;
-			target = 5D02780FC11341C3D40A209D0ED04EE0 /* iosMath */;
-			targetProxy = 1BB3277E9F6211D298DF2795C5345AC7 /* PBXContainerItemProxy */;
-		};
-		D5EF40CCC8485503DA48C372C5EFCCFB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PEPBigData;
-			target = CDFFD9E4EDE0EEC0D6737A0D45E96545 /* PEPBigData */;
-			targetProxy = C880D00AD13FC261F4EC0454A78FD6F7 /* PBXContainerItemProxy */;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 70C336DAE6FF82649F84E954CBF1B3AA /* PBXContainerItemProxy */;
 		};
 		DA8494EF8FB89E9D3B293E1BEA990349 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
 			targetProxy = BC71B8C5142C67B7469CAE7484CC8C90 /* PBXContainerItemProxy */;
-		};
-		DC68AF8B3EC8D46328A68916C1C902DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "iosMath-mathFonts";
-			target = DF5F2C4737E902D72711853B3875FBC5 /* iosMath-mathFonts */;
-			targetProxy = C1F1FC668B9FE6812334DE64FB0658B6 /* PBXContainerItemProxy */;
 		};
 		E334A8804697892BC89AE07CFE5EFE90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2508,17 +2534,17 @@
 			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
 			targetProxy = D970115F643FAFBC881E784DC52C20A2 /* PBXContainerItemProxy */;
 		};
-		EF96CAACB35CD89669F3588C0B92AB18 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 6FD155C2F24B528E4235AD58A59BEE66 /* PBXContainerItemProxy */;
-		};
 		F68CA5FB28D4F111764ADF9688970EF7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iosMath;
 			target = 5D02780FC11341C3D40A209D0ED04EE0 /* iosMath */;
 			targetProxy = 1F7D6F7149508FD51E7773510232259A /* PBXContainerItemProxy */;
+		};
+		FA1748E8D79601531464EE4834DAFCD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PEPNetworking;
+			target = BD4C0A2F1C60C185A3802EDFD0E74ADA /* PEPNetworking */;
+			targetProxy = 95C55E13C139EB708234F0614F5E8641 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2546,6 +2572,28 @@
 			};
 			name = Release;
 		};
+		11AB49DA081E6CA673C5EEAD6139B3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493A7A7EC9CFFE93FED41CE681E56A99 /* iosMath.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/iosMath/iosMath-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = iosMath;
+				PRODUCT_NAME = iosMath;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		1D5A617C6D29C80A010800BBFB7774FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F1593705C85B11993D3009CAA4B64FF /* FMDB.debug.xcconfig */;
@@ -2569,6 +2617,23 @@
 			};
 			name = Debug;
 		};
+		1DA362C4A06C2B351AC64EB0A1FB9F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493A7A7EC9CFFE93FED41CE681E56A99 /* iosMath.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/iosMath";
+				IBSC_MODULE = iosMath;
+				INFOPLIST_FILE = "Target Support Files/iosMath/ResourceBundle-mathFonts-iosMath-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = mathFonts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		1DE129CCEA0D3264B2B70A60BD67C0DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6EA1F289D011AC23691FB73DDBD037C4 /* PEPBigData.release.xcconfig */;
@@ -2583,12 +2648,12 @@
 			};
 			name = Release;
 		};
-		261FBA95341B7A4EB248BE6F5F5444E5 /* Debug */ = {
+		220EC5BE6916DDDDF825DAA2611E57D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 493A7A7EC9CFFE93FED41CE681E56A99 /* iosMath.debug.xcconfig */;
+			baseConfigurationReference = 20C7F665EB11DFCF96373B231F1EF2F7 /* iosMath.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/iosMath";
-				DEVELOPMENT_TEAM = 27977R6VY3;
 				IBSC_MODULE = iosMath;
 				INFOPLIST_FILE = "Target Support Files/iosMath/ResourceBundle-mathFonts-iosMath-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -2597,29 +2662,6 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		2894E0F762B50078F0DD301EDAB233D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20C7F665EB11DFCF96373B231F1EF2F7 /* iosMath.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/iosMath/iosMath-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = iosMath;
-				PRODUCT_NAME = iosMath;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -2645,6 +2687,28 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		455B0212213464439761C460E994BC79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53128A8055A1E1F2929ACA6FC31D7D7F /* YYModel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		4B686AA2D8DE483BFADA5CE4FD6134F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2720,28 +2784,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		575FED26232561419D16CED9236740CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B7500E85FCF43582ECC92AE2E4CEDD1 /* SAMKeychain.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SAMKeychain;
-				PRODUCT_NAME = SAMKeychain;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2892,9 +2934,55 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8117356B10479F9207E7C55DA0EDE62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7500E85FCF43582ECC92AE2E4CEDD1 /* SAMKeychain.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82A5937559DC432B20A10C01022D1CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F781549651286AC18204284246032DE9 /* YYModel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -2944,29 +3032,6 @@
 			};
 			name = Debug;
 		};
-		8ABFEFE96FD6D3D46E07497B67F0F9C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DA720B25FE4FF482D53125AD54F0910 /* SAMKeychain.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SAMKeychain;
-				PRODUCT_NAME = SAMKeychain;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		8FF4239B3D4BF21803CF7A0886B889B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE9A453A9A32A75C35D70E4C475331C7 /* Pods-PDFReaderSample.release.xcconfig */;
@@ -3011,45 +3076,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		9D22098CA04A9A0CD76663BFB0BF9455 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20C7F665EB11DFCF96373B231F1EF2F7 /* iosMath.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/iosMath";
-				DEVELOPMENT_TEAM = 27977R6VY3;
-				IBSC_MODULE = iosMath;
-				INFOPLIST_FILE = "Target Support Files/iosMath/ResourceBundle-mathFonts-iosMath-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = mathFonts;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		A03080DB28ECEB42B25751CF29D93298 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 493A7A7EC9CFFE93FED41CE681E56A99 /* iosMath.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/iosMath/iosMath-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = iosMath;
-				PRODUCT_NAME = iosMath;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		A79BFF01E4BE4207F925AB1A5C7E950D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3119,29 +3145,6 @@
 			};
 			name = Debug;
 		};
-		BEC616D22A34F4D9C0C2965985024886 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F781549651286AC18204284246032DE9 /* YYModel.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YYModel;
-				PRODUCT_NAME = YYModel;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		C08FB427C45099936D83E2B01EC98DB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 708F85CB75DA852AD54F49229E0C8E94 /* Aspects.debug.xcconfig */;
@@ -3164,27 +3167,65 @@
 			};
 			name = Debug;
 		};
-		CB735B9279061E596041C2DD9AAD7293 /* Debug */ = {
+		C995C05A69627592BC8C7ADD7C88BA51 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53128A8055A1E1F2929ACA6FC31D7D7F /* YYModel.debug.xcconfig */;
+			baseConfigurationReference = C0F69D36760ABD54B346145BC2EAFAF4 /* PEPReaderSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C99D5CCE3E671D6B8FF3C659293E2011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C7F665EB11DFCF96373B231F1EF2F7 /* iosMath.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/iosMath/iosMath-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = YYModel;
-				PRODUCT_NAME = YYModel;
+				PRODUCT_MODULE_NAME = iosMath;
+				PRODUCT_NAME = iosMath;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
+		};
+		CCBE00C975CEC722B8CF7AA428500043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA720B25FE4FF482D53125AD54F0910 /* SAMKeychain.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3276,7 +3317,7 @@
 			};
 			name = Release;
 		};
-		DE18EBAF6CF035DDC2700BBAB3FEA753 /* Release */ = {
+		DE584D63F4652E5BC6AFBF940EF1249E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B64B461CF27730A7952CD554785B89F /* PEPReaderSDK.release.xcconfig */;
 			buildSettings = {
@@ -3290,20 +3331,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		F4245D6DAE43E5F94A795358DD0164EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0F69D36760ABD54B346145BC2EAFAF4 /* PEPReaderSDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		F7C09E2789036A8363F26C43D5D0A7B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3330,42 +3357,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29B078C9F78528A5E81B705AA3D0CEC7 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CB735B9279061E596041C2DD9AAD7293 /* Debug */,
-				BEC616D22A34F4D9C0C2965985024886 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		38CBB89D5898E59DBD70B3C5AC18AB3B /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				575FED26232561419D16CED9236740CD /* Debug */,
-				8ABFEFE96FD6D3D46E07497B67F0F9C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		39AA3AFBF29E0CA71E03EE667660677B /* Build configuration list for PBXAggregateTarget "PEPReaderSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4245D6DAE43E5F94A795358DD0164EC /* Debug */,
-				DE18EBAF6CF035DDC2700BBAB3FEA753 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3A6643C094DB3755C0639C747AB8ABA0 /* Build configuration list for PBXNativeTarget "iosMath-mathFonts" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				261FBA95341B7A4EB248BE6F5F5444E5 /* Debug */,
-				9D22098CA04A9A0CD76663BFB0BF9455 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3BCED39FCEBAD6E1E9502CD1A59A212E /* Build configuration list for PBXNativeTarget "MZTimerLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3384,6 +3375,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4A009C46B812B983E66E6F9A99AA008D /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8117356B10479F9207E7C55DA0EDE62F /* Debug */,
+				CCBE00C975CEC722B8CF7AA428500043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6525CCFB5FEEBC36FDDE16A88CD85B83 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3393,20 +3393,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76D5FFFE14C7162AE73F05FD079E28E0 /* Build configuration list for PBXNativeTarget "iosMath" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A03080DB28ECEB42B25751CF29D93298 /* Debug */,
-				2894E0F762B50078F0DD301EDAB233D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		85BEA5F3C86A567FA464829337DCDE9F /* Build configuration list for PBXNativeTarget "Aspects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C08FB427C45099936D83E2B01EC98DB8 /* Debug */,
 				9B1D9EA489043109A88EC588A2F544EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA0BC4642D408746A8D499D58006E00 /* Build configuration list for PBXAggregateTarget "PEPReaderSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C995C05A69627592BC8C7ADD7C88BA51 /* Debug */,
+				DE584D63F4652E5BC6AFBF940EF1249E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3429,11 +3429,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A3427C711684D831CEF6D0AF0BF486B5 /* Build configuration list for PBXNativeTarget "iosMath-mathFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA362C4A06C2B351AC64EB0A1FB9F96 /* Debug */,
+				220EC5BE6916DDDDF825DAA2611E57D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A86BF67CC60EB8C95381A46D4BAC6605 /* Build configuration list for PBXNativeTarget "Pods-PDFReaderSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B686AA2D8DE483BFADA5CE4FD6134F8 /* Debug */,
 				8FF4239B3D4BF21803CF7A0886B889B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1FACED3E43C7CCCE54F13DF3669321A /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455B0212213464439761C460E994BC79 /* Debug */,
+				82A5937559DC432B20A10C01022D1CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3452,6 +3470,15 @@
 			buildConfigurations = (
 				1D5A617C6D29C80A010800BBFB7774FE /* Debug */,
 				8A2AC2BE025CD007E40B359FDE9A3D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D5DCC391B43E74C01467C4EB3C008A /* Build configuration list for PBXNativeTarget "iosMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AB49DA081E6CA673C5EEAD6139B3D2 /* Debug */,
+				C99D5CCE3E671D6B8FF3C659293E2011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
