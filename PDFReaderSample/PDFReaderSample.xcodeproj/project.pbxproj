@@ -18,7 +18,6 @@
 		E910C2F321815408009CC19A /* DeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E910C2F221815408009CC19A /* DeviceListViewController.m */; };
 		E910C2F62181547B009CC19A /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = E910C2F52181547B009CC19A /* Device.m */; };
 		E910C2F82182F09F009CC19A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E910C2F72182F09F009CC19A /* UIKit.framework */; };
-		E9346441204FECB400E479F5 /* PDFReaderSDKDiandu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E934643D204FECB400E479F5 /* PDFReaderSDKDiandu.xcassets */; };
 		E940F0152060EF4900F54205 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E940F0142060EF4900F54205 /* QuartzCore.framework */; };
 		E940F0172060EF5200F54205 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E940F0162060EF5100F54205 /* CoreGraphics.framework */; };
 		E940F0192060EF5A00F54205 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E940F0182060EF5A00F54205 /* SystemConfiguration.framework */; };
@@ -72,7 +71,6 @@
 		E910C2F42181547B009CC19A /* Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
 		E910C2F52181547B009CC19A /* Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 		E910C2F72182F09F009CC19A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E934643D204FECB400E479F5 /* PDFReaderSDKDiandu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PDFReaderSDKDiandu.xcassets; sourceTree = "<group>"; };
 		E940F0142060EF4900F54205 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E940F0162060EF5100F54205 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E940F0182060EF5A00F54205 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -140,7 +138,6 @@
 		E934643C204FECB400E479F5 /* SDKResource */ = {
 			isa = PBXGroup;
 			children = (
-				E934643D204FECB400E479F5 /* PDFReaderSDKDiandu.xcassets */,
 			);
 			path = SDKResource;
 			sourceTree = "<group>";
@@ -283,7 +280,6 @@
 				E9569B7E204CE44F00A12635 /* Assets.xcassets in Resources */,
 				E940F069206B3BE500F54205 /* Localizable.strings in Resources */,
 				E9569B7C204CE44F00A12635 /* Main.storyboard in Resources */,
-				E9346441204FECB400E479F5 /* PDFReaderSDKDiandu.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
