@@ -228,7 +228,7 @@ THE SOFTWARE.
 			<key>FooterText</key>
 			<string>MIT License
 
-Copyright (c) 2018 
+Copyright (c) 2021 PEPDigitalPublishing
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -249,7 +249,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </string>
 			<key>Title</key>
-			<string>PEPReaderSDK</string>
+			<string>PEPReaderSDK_YFD</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

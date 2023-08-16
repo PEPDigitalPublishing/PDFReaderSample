@@ -12,7 +12,8 @@ def common_pods
     # 非一起作业使用这两行
     pod 'PEPiFlyMSC', :git => 'https://github.com/PEPDigitalPublishing/PEPiFlyMSC.git'
     pod 'PEPReaderSDK', :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK.git'
-    
+
+
     # 一起作业使用这两行
 #    pod 'PEPReaderSDK_YiQi', :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK_YiQi.git'
 #    pod 'YIQISpeechEngine', :git => 'https://gitee.com/guxiong/YIQISpeechEngine.git'
