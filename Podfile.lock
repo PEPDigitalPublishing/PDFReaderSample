@@ -27,7 +27,7 @@ PODS:
   - PEPiFlyMSC (1.180)
   - PEPNetworking (0.5.1):
     - AFNetworking (~> 4.0.0)
-  - PEPReaderSDK (2.8.8):
+  - PEPReaderSDK (2.8.11):
     - iosMath
     - Masonry
     - MZTimerLabel
@@ -82,7 +82,7 @@ CHECKOUT OPTIONS:
     :commit: a861b4df693ed92ff452303bd370e04fceb93d96
     :git: https://github.com/PEPDigitalPublishing/PEPNetworking.git
   PEPReaderSDK:
-    :commit: d385f39a5dd7c8bf57ad11590ef6dce802eab9c4
+    :commit: 2347da3f4fce36f13379d3253fd72ca02de7b831
     :git: https://github.com/PEPDigitalPublishing/PEPReaderSDK.git
 
 SPEC CHECKSUMS:
@@ -95,7 +95,7 @@ SPEC CHECKSUMS:
   PEPBigData: a93404281d4f338e42be3ba6c9cd3d69aa0658c3
   PEPiFlyMSC: 257589a848c0ebdcc26457ec7758de1c4bb89137
   PEPNetworking: fa93e5223f4c0174882bccb4b827a87a3985a1ca
-  PEPReaderSDK: 59e1f211fe2d643482c90c9052f5957492070905
+  PEPReaderSDK: 3bf6e20840275f2cf4cdd37ab7c2d138f9eb2c63
   RKAPPMonitorView: 4c770188e8938cefea76994e134f3be2055cfc16
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
