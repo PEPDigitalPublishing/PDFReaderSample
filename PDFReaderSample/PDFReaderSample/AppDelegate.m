@@ -26,7 +26,7 @@
         [appearance configureWithOpaqueBackground];
         [appearance setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.redColor,
         NSFontAttributeName:[UIFont systemFontOfSize:20]}];
-        appearance.backgroundColor = UIColor.blueColor;
+        appearance.backgroundColor = UIColor.grayColor;
         appearance.shadowColor = UIColor.clearColor;
 
         [UINavigationBar appearance].scrollEdgeAppearance = appearance;

@@ -575,7 +575,7 @@
 - (void)openBookWithBookModel:(PRBookModel *)book {
     PRStandardViewController *readerVC = [[PRStandardViewController alloc] initWithBookID:book.book_id pageIndex:0 purchase:book.purchase];
     readerVC.delegate = self;
-    readerVC.themeColor = UIColor.blueColor;
+//    readerVC.themeColor = UIColor.blueColor;
     [self.navigationController pushViewController:readerVC animated:YES];
     
     readerVC.toolBarItemDidSelected = ^(PRToolBarItemType type, BOOL selected) {
