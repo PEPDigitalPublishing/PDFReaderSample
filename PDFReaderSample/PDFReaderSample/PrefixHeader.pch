@@ -36,7 +36,7 @@ static NSString * const kAppKey_debug = @"c1860a61705f36538055c0955c3270aa";
 static NSString * const kAppKey_release = @"此处修改为正式环境key";
 
 /** 测试用的userID：此处仅为示例，对接时可随意指定userID */
-static NSString * const kSampleUserID = @"125221111";
+static NSString * const kSampleUserID = @"998917333111";
 
 
 

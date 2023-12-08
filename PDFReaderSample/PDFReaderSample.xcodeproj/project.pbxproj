@@ -13,6 +13,8 @@
 		22DB3B8E26A96DD80040DD00 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DB3B8D26A96DC80040DD00 /* libz.tbd */; };
 		331A2C7B2533ED790050B955 /* ThirdSpeechEvaluatorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 331A2C792533ED790050B955 /* ThirdSpeechEvaluatorTool.m */; };
 		AA8453E3C2BAD67C51ED1CE6 /* libPods-PDFReaderSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63507B0C56196581863E172A /* libPods-PDFReaderSample.a */; };
+		AE0C511C2B22C1C1004DDC91 /* PDFReaderSDKDiandu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0C511B2B22C1C1004DDC91 /* PDFReaderSDKDiandu.xcassets */; };
+		AE0C511E2B22C205004DDC91 /* PEPPDFReaderSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE0C511D2B22C205004DDC91 /* PEPPDFReaderSDK.bundle */; };
 		E9082928218007C2002D632D /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9082927218007C2002D632D /* TabBarController.m */; };
 		E908292B21800826002D632D /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E908292A21800826002D632D /* NavigationController.m */; };
 		E910C2F321815408009CC19A /* DeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E910C2F221815408009CC19A /* DeviceListViewController.m */; };
@@ -61,6 +63,8 @@
 		331A2C792533ED790050B955 /* ThirdSpeechEvaluatorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdSpeechEvaluatorTool.m; sourceTree = "<group>"; };
 		331A2C7A2533ED790050B955 /* ThirdSpeechEvaluatorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdSpeechEvaluatorTool.h; sourceTree = "<group>"; };
 		63507B0C56196581863E172A /* libPods-PDFReaderSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFReaderSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0C511B2B22C1C1004DDC91 /* PDFReaderSDKDiandu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PDFReaderSDKDiandu.xcassets; sourceTree = "<group>"; };
+		AE0C511D2B22C205004DDC91 /* PEPPDFReaderSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PEPPDFReaderSDK.bundle; sourceTree = "<group>"; };
 		E9082926218007C2002D632D /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		E9082927218007C2002D632D /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		E908292921800826002D632D /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 		E934643C204FECB400E479F5 /* SDKResource */ = {
 			isa = PBXGroup;
 			children = (
+				AE0C511D2B22C205004DDC91 /* PEPPDFReaderSDK.bundle */,
+				AE0C511B2B22C1C1004DDC91 /* PDFReaderSDKDiandu.xcassets */,
 			);
 			path = SDKResource;
 			sourceTree = "<group>";
@@ -276,7 +282,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0C511C2B22C1C1004DDC91 /* PDFReaderSDKDiandu.xcassets in Resources */,
 				E9569B81204CE44F00A12635 /* LaunchScreen.storyboard in Resources */,
+				AE0C511E2B22C205004DDC91 /* PEPPDFReaderSDK.bundle in Resources */,
 				E9569B7E204CE44F00A12635 /* Assets.xcassets in Resources */,
 				E940F069206B3BE500F54205 /* Localizable.strings in Resources */,
 				E9569B7C204CE44F00A12635 /* Main.storyboard in Resources */,
@@ -499,6 +507,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PDFReaderSample/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PDFReaderSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "点读SDK";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -533,6 +542,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PDFReaderSample/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PDFReaderSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "点读SDK";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";

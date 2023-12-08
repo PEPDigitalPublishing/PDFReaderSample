@@ -24,15 +24,15 @@
     if (@available(iOS 13.0, *)) {
         UINavigationBarAppearance *appearance = [[UINavigationBarAppearance alloc] init];
         [appearance configureWithOpaqueBackground];
-        [appearance setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.blackColor,
+        [appearance setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.redColor,
         NSFontAttributeName:[UIFont systemFontOfSize:20]}];
-        appearance.backgroundColor = UIColor.magentaColor;
+        appearance.backgroundColor = UIColor.blueColor;
         appearance.shadowColor = UIColor.clearColor;
 
         [UINavigationBar appearance].scrollEdgeAppearance = appearance;
 
         [UINavigationBar appearance].standardAppearance = appearance;
-        [UINavigationBar appearance].tintColor = UIColor.blackColor;
+        [UINavigationBar appearance].tintColor = UIColor.greenColor;
     }
     return YES;
 }
@@ -42,9 +42,10 @@
 - (void)initRJReadSDK {
     
 #if DEBUG
-    [PRSDKManager configServerMode:true];  // 测试环境: 正测环境目前仅以AppKey来区分，此处均传true
+    // 测试环境: 正测环境目前仅以AppKey来区分，此处均传true
+//    [PRSDKManager configServerMode:true];
     [PRSDKManager setAppKey:kAppKey_debug]; // 测试key
-    [PRSDKManager setLogSwitch:true]; // 日志打印开
+    [PRSDKManager setLogSwitch:NO]; // 日志打印开
     [PRSDKManager setEvaluateEngineType:PREvaluateEngineTypeXunFei];    // 配置评测引擎类型
     
     // 使用其他测评引擎用到
