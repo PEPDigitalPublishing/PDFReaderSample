@@ -41,23 +41,15 @@
 /** 初始化人教点读SDK */
 - (void)initRJReadSDK {
     
-#if DEBUG
-    // 测试环境: 正测环境目前仅以AppKey来区分，此处均传true
-//    [PRSDKManager configServerMode:true];
+    [PRSDKManager configServerMode:YES];
     [PRSDKManager setAppKey:kAppKey_debug]; // 测试key
-    [PRSDKManager setLogSwitch:NO]; // 日志打印开
+    [PRSDKManager setLogSwitch:YES]; // 日志打印开
     [PRSDKManager setEvaluateEngineType:PREvaluateEngineTypeXunFei];    // 配置评测引擎类型
     
     // 使用其他测评引擎用到
 //    [PRSDKManager setEvaluateEngineType:PREvaluateEngineTypeOther];
 //    [ThirdSpeechEvaluatorTool shareInstance];// 初始化测评引擎
-    
-#else
-    [PRSDKManager configServerMode:true];  // 正式环境: 正测环境目前仅以AppKey来区分，此处均传true
-    [PRSDKManager setAppKey:kAppKey_release]; // 正式key
-    [PRSDKManager setLogSwitch:false]; // 日志打印关
-#endif
-    
+  
 }
 
 

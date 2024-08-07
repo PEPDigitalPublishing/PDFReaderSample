@@ -60,6 +60,12 @@
         NSLog(@"%@", error);
     }];
 }
+- (IBAction)clickBtn:(id)sender {
+    NSArray<PRBookGradeModel *> *arr =  [PRSDKManager getBooklist];
+    
+    PRBookModel *model=  [PRSDKManager getBookItemWithBookID:@"1311001201192"];
+    NSLog(@"");
+}
 
 
 // MARK: - Action

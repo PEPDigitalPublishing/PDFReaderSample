@@ -32,6 +32,7 @@
 /** 测试key */
 static NSString * const kAppKey_debug = @"c1860a61705f36538055c0955c3270aa";
 
+
 /** 正式key */
 static NSString * const kAppKey_release = @"此处修改为正式环境key";
 
