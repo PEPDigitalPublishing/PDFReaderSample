@@ -1,18 +1,17 @@
-platform :ios, '10.0'
+platform :ios, '11.0'
+use_frameworks!
 install! 'cocoapods', :disable_input_output_paths => true
 workspace 'PEPReaderDemo.xcworkspace'
-
+install! 'cocoapods', :disable_input_output_paths => true
 def common_pods
 
     pod 'SSZipArchive'
-
-    pod 'PEPBigData', :git => 'https://github.com/PEPDigitalPublishing/PEPBigData.git'
-    pod 'PEPNetworking', :git => 'https://github.com/PEPDigitalPublishing/PEPNetworking.git'
-
     # 非一起作业使用这两行
     pod 'PEPiFlyMSC', :git => 'https://github.com/PEPDigitalPublishing/PEPiFlyMSC.git'
+    
     pod 'PEPReaderSDK', :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK.git'
-
+    
+    pod 'FLAnimatedImage', '~> 1.0'
 
     # 一起作业使用这两行
 #    pod 'PEPReaderSDK_YiQi', :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK_YiQi.git'

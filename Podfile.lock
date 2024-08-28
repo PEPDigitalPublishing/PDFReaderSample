@@ -15,19 +15,20 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - Aspects (1.4.1)
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
+  - FLAnimatedImage (1.0.17)
+  - FMDB (2.7.11):
+    - FMDB/standard (= 2.7.11)
+  - FMDB/standard (2.7.11)
   - iosMath (0.9.4)
   - Masonry (1.1.0)
   - MZTimerLabel (0.5.4)
-  - PEPBigData (0.5.4):
+  - PEPBigData (0.5.6):
     - Aspects
     - FMDB
   - PEPiFlyMSC (1.180)
-  - PEPNetworking (0.5.1):
+  - PEPNetworking (0.5.2):
     - AFNetworking (~> 4.0.0)
-  - PEPReaderSDK (2.8.11):
+  - PEPReaderSDK (2.8.13):
     - iosMath
     - Masonry
     - MZTimerLabel
@@ -41,9 +42,8 @@ PODS:
   - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - PEPBigData (from `https://github.com/PEPDigitalPublishing/PEPBigData.git`)
+  - FLAnimatedImage (~> 1.0)
   - PEPiFlyMSC (from `https://github.com/PEPDigitalPublishing/PEPiFlyMSC.git`)
-  - PEPNetworking (from `https://github.com/PEPDigitalPublishing/PEPNetworking.git`)
   - PEPReaderSDK (from `https://github.com/PEPDigitalPublishing/PEPReaderSDK.git`)
   - RKAPPMonitorView
   - SSZipArchive
@@ -52,55 +52,49 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - Aspects
+    - FLAnimatedImage
     - FMDB
     - iosMath
     - Masonry
     - MZTimerLabel
+    - PEPBigData
+    - PEPNetworking
     - RKAPPMonitorView
     - SAMKeychain
     - SSZipArchive
     - YYModel
 
 EXTERNAL SOURCES:
-  PEPBigData:
-    :git: https://github.com/PEPDigitalPublishing/PEPBigData.git
   PEPiFlyMSC:
     :git: https://github.com/PEPDigitalPublishing/PEPiFlyMSC.git
-  PEPNetworking:
-    :git: https://github.com/PEPDigitalPublishing/PEPNetworking.git
   PEPReaderSDK:
     :git: https://github.com/PEPDigitalPublishing/PEPReaderSDK.git
 
 CHECKOUT OPTIONS:
-  PEPBigData:
-    :commit: b80590e5753b652e64a22dc3037b23710f1aed66
-    :git: https://github.com/PEPDigitalPublishing/PEPBigData.git
   PEPiFlyMSC:
     :commit: 07848f421cfc13601e0837cd9b93ee26a1cf3abb
     :git: https://github.com/PEPDigitalPublishing/PEPiFlyMSC.git
-  PEPNetworking:
-    :commit: a861b4df693ed92ff452303bd370e04fceb93d96
-    :git: https://github.com/PEPDigitalPublishing/PEPNetworking.git
   PEPReaderSDK:
-    :commit: 2347da3f4fce36f13379d3253fd72ca02de7b831
+    :commit: d280e12b17fbb7081f15662cc85e769b9c59631c
     :git: https://github.com/PEPDigitalPublishing/PEPReaderSDK.git
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  FLAnimatedImage: bbf914596368867157cc71b38a8ec834b3eeb32b
+  FMDB: 57486c1117fd8e0e6b947b2f54c3f42bf8e57a4e
   iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
-  PEPBigData: a93404281d4f338e42be3ba6c9cd3d69aa0658c3
+  PEPBigData: c50e2faed98f56296e973616e742440527f095ee
   PEPiFlyMSC: 257589a848c0ebdcc26457ec7758de1c4bb89137
-  PEPNetworking: fa93e5223f4c0174882bccb4b827a87a3985a1ca
-  PEPReaderSDK: 3bf6e20840275f2cf4cdd37ab7c2d138f9eb2c63
+  PEPNetworking: ed449649bbef900de8e2b618624af08709716300
+  PEPReaderSDK: 6457543d59a0e930eac1a1d212eb243326ad14ba
   RKAPPMonitorView: 4c770188e8938cefea76994e134f3be2055cfc16
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 17dc46fd8792d21f042308ed4cba9c251ffb47e5
+PODFILE CHECKSUM: 42464781eacf925c8212a5c167d3d787325eefd9
 
 COCOAPODS: 1.12.1

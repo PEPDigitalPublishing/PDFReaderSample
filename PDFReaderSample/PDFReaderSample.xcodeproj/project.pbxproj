@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4D7EA140349DEE7C04E4BD /* Pods_PDFReaderSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D2CFB364F2CDDE8C91F19E /* Pods_PDFReaderSample.framework */; };
 		22DB3B8926A96B760040DD00 /* FoxitRDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DB3B8826A96B760040DD00 /* FoxitRDK.framework */; };
 		22DB3B8A26A96B760040DD00 /* FoxitRDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22DB3B8826A96B760040DD00 /* FoxitRDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22DB3B8C26A96D3D0040DD00 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DB3B8B26A96D350040DD00 /* libc++.tbd */; };
 		22DB3B8E26A96DD80040DD00 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DB3B8D26A96DC80040DD00 /* libz.tbd */; };
 		331A2C7B2533ED790050B955 /* ThirdSpeechEvaluatorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 331A2C792533ED790050B955 /* ThirdSpeechEvaluatorTool.m */; };
-		AA8453E3C2BAD67C51ED1CE6 /* libPods-PDFReaderSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63507B0C56196581863E172A /* libPods-PDFReaderSample.a */; };
 		AE0C511C2B22C1C1004DDC91 /* PDFReaderSDKDiandu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0C511B2B22C1C1004DDC91 /* PDFReaderSDKDiandu.xcassets */; };
 		AE0C511E2B22C205004DDC91 /* PEPPDFReaderSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE0C511D2B22C205004DDC91 /* PEPPDFReaderSDK.bundle */; };
 		E9082928218007C2002D632D /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9082927218007C2002D632D /* TabBarController.m */; };
@@ -55,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02D2CFB364F2CDDE8C91F19E /* Pods_PDFReaderSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFReaderSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1171703158D005EACE2F578C /* Pods-PDFReaderSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-PDFReaderSample/Pods-PDFReaderSample.debug.xcconfig"; sourceTree = "<group>"; };
 		22DB3B8826A96B760040DD00 /* FoxitRDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FoxitRDK.framework; path = ../FoxitRDK.framework; sourceTree = "<group>"; };
 		22DB3B8B26A96D350040DD00 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -62,7 +63,6 @@
 		28B984B76F23AB9E2033F2F7 /* Pods-PDFReaderSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFReaderSample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-PDFReaderSample/Pods-PDFReaderSample.release.xcconfig"; sourceTree = "<group>"; };
 		331A2C792533ED790050B955 /* ThirdSpeechEvaluatorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdSpeechEvaluatorTool.m; sourceTree = "<group>"; };
 		331A2C7A2533ED790050B955 /* ThirdSpeechEvaluatorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdSpeechEvaluatorTool.h; sourceTree = "<group>"; };
-		63507B0C56196581863E172A /* libPods-PDFReaderSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PDFReaderSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0C511B2B22C1C1004DDC91 /* PDFReaderSDKDiandu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PDFReaderSDKDiandu.xcassets; sourceTree = "<group>"; };
 		AE0C511D2B22C205004DDC91 /* PEPPDFReaderSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PEPPDFReaderSDK.bundle; sourceTree = "<group>"; };
 		E9082926218007C2002D632D /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 				E940F0192060EF5A00F54205 /* SystemConfiguration.framework in Frameworks */,
 				E940F0172060EF5200F54205 /* CoreGraphics.framework in Frameworks */,
 				E940F0152060EF4900F54205 /* QuartzCore.framework in Frameworks */,
-				AA8453E3C2BAD67C51ED1CE6 /* libPods-PDFReaderSample.a in Frameworks */,
+				1C4D7EA140349DEE7C04E4BD /* Pods_PDFReaderSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 				E940F0182060EF5A00F54205 /* SystemConfiguration.framework */,
 				E940F0162060EF5100F54205 /* CoreGraphics.framework */,
 				E940F0142060EF4900F54205 /* QuartzCore.framework */,
-				63507B0C56196581863E172A /* libPods-PDFReaderSample.a */,
+				02D2CFB364F2CDDE8C91F19E /* Pods_PDFReaderSample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -232,7 +232,8 @@
 				E9569B6E204CE44F00A12635 /* Frameworks */,
 				E9569B6F204CE44F00A12635 /* Resources */,
 				E940F00B2060AA5F00F54205 /* Embed Frameworks */,
-				B017D8D013F3B43250536342 /* [CP] Copy Pods Resources */,
+				510B188FD84D51C8B7C00BD1 /* [CP] Embed Pods Frameworks */,
+				BFD588632279F49533E5FEC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,9 +313,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B017D8D013F3B43250536342 /* [CP] Copy Pods Resources */ = {
+		510B188FD84D51C8B7C00BD1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDFReaderSample/Pods-PDFReaderSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD588632279F49533E5FEC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
@@ -508,7 +524,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PDFReaderSample/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "点读SDK";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 2.6;
@@ -543,7 +559,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PDFReaderSample/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "点读SDK";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 2.6;
