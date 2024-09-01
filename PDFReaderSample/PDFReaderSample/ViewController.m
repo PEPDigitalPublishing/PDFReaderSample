@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    [self userAuth];    // 用户鉴权
+    
     
 //    [self createAppMonitorView];
     
@@ -61,10 +61,9 @@
     }];
 }
 - (IBAction)clickBtn:(id)sender {
-    NSArray<PRBookGradeModel *> *arr =  [PRSDKManager getBooklist];
+    [PRSDKManager setAppKey:kAppKey_debug]; // 测试key
+    [self userAuth];    // 用户鉴权
     
-    PRBookModel *model=  [PRSDKManager getBookItemWithBookID:@"1311001201192"];
-    NSLog(@"");
 }
 
 

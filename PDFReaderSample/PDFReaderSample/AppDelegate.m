@@ -42,8 +42,7 @@
 - (void)initRJReadSDK {
     
     [PRSDKManager configServerMode:YES];
-    [PRSDKManager setAppKey:kAppKey_debug]; // 测试key
-    [PRSDKManager setLogSwitch:YES]; // 日志打印开
+    [PRSDKManager setLogSwitch:YES]; // 日志打印开]
     [PRSDKManager setEvaluateEngineType:PREvaluateEngineTypeXunFei];    // 配置评测引擎类型
     
     // 使用其他测评引擎用到
