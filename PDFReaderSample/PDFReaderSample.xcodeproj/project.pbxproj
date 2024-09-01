@@ -234,6 +234,7 @@
 				E940F00B2060AA5F00F54205 /* Embed Frameworks */,
 				510B188FD84D51C8B7C00BD1 /* [CP] Embed Pods Frameworks */,
 				BFD588632279F49533E5FEC1 /* [CP] Copy Pods Resources */,
+				AE3753FB2C80074E00403E7A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -327,6 +328,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDFReaderSample/Pods-PDFReaderSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		AE3753FB2C80074E00403E7A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n# 定义应用程序路径\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\necho \"App Path: $APP_PATH\"\n\n# 需要保留的架构，通常是 arm64（可以根据你的需求调整）\nVALID_ARCHS=\"arm64\"\n\necho \"Valid Architectures: $VALID_ARCHS\"\n\n# 遍历应用程序包中的所有框架\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\n    FRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\n    FRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\n    \n    echo \"Processing Framework: $FRAMEWORK_EXECUTABLE_NAME\"\n    echo \"Executable Path: $FRAMEWORK_EXECUTABLE_PATH\"\n    \n    # 获取当前二进制文件中的架构\n    ARCHS=\"$(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\" | rev | cut -d ':' -f1 | rev)\"\n    echo \"Current Architectures in $FRAMEWORK_EXECUTABLE_NAME: $ARCHS\"\n    \n    # 为每个架构检查是否需要保留\n    for ARCH in $ARCHS\n    do\n        if [[ ! \"$VALID_ARCHS\" == *\"$ARCH\"* ]]; then\n            # 移除不需要的架构\n            echo \"Removing $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\n            lipo -remove \"$ARCH\" -output \"$FRAMEWORK_EXECUTABLE_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n        else\n            echo \"Keeping $ARCH in $FRAMEWORK_EXECUTABLE_NAME\"\n        fi\n    done\ndone\n\n# 处理最终的可执行文件\nEXECUTABLE_PATH=\"${APP_PATH}/${EXECUTABLE_NAME}\"\necho \"Processing Main Executable: $EXECUTABLE_NAME\"\n\nARCHS=\"$(lipo -info \"$EXECUTABLE_PATH\" | rev | cut -d ':' -f1 | rev)\"\necho \"Current Architectures in Main Executable: $ARCHS\"\n\nfor ARCH in $ARCHS\ndo\n    if [[ ! \"$VALID_ARCHS\" == *\"$ARCH\"* ]]; then\n        echo \"Removing $ARCH from main executable\"\n        lipo -remove \"$ARCH\" -output \"$EXECUTABLE_PATH\" \"$EXECUTABLE_PATH\"\n    else\n        echo \"Keeping $ARCH in main executable\"\n    fi\ndone\n\necho \"Script execution completed.\"\n";
 		};
 		BFD588632279F49533E5FEC1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -510,6 +528,7 @@
 			baseConfigurationReference = 1171703158D005EACE2F578C /* Pods-PDFReaderSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_SKIP_APP_STORE_DEPLOYMENT = NO;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +550,8 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
+					"-ld64",
+					"-ld_classic",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.media.xinhua;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -566,6 +587,8 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
+					"-ld64",
+					"-ld_classic",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.media.xinhua;
 				PRODUCT_NAME = "$(TARGET_NAME)";

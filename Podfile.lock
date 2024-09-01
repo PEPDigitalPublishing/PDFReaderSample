@@ -22,7 +22,7 @@ PODS:
   - iosMath (0.9.4)
   - Masonry (1.1.0)
   - MZTimerLabel (0.5.4)
-  - PEPBigData (0.5.6):
+  - PEPBigData (0.5.7):
     - Aspects
     - FMDB
   - PEPiFlyMSC (1.180)
@@ -86,7 +86,7 @@ SPEC CHECKSUMS:
   iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
-  PEPBigData: c50e2faed98f56296e973616e742440527f095ee
+  PEPBigData: 471d8bbfc40ac7a6ff3f6b671e6ca36630f4a756
   PEPiFlyMSC: 257589a848c0ebdcc26457ec7758de1c4bb89137
   PEPNetworking: ed449649bbef900de8e2b618624af08709716300
   PEPReaderSDK: 6457543d59a0e930eac1a1d212eb243326ad14ba
